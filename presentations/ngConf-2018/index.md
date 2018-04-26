@@ -1,3 +1,9 @@
 # Presentations:
 * [All Videos](https://nitayneeman.com/posts/all-talks-from-ng-conf-2018/)
 * [Reactive Testing Strategies with NgRx](https://brandonroberts.github.io/ngrx-ngconf-2018/ngrx-testing/assets/player/KeynoteDHTMLPlayer.html) (@brandontroberts & @MikeRyanDev)
+
+
+# My Notes
+* [day 1](https://tgrux.github.io/presentations/ngConf-2018/notes/NG-Conf-Day-1-41818.md)
+* [day 2](https://tgrux.github.io/presentations/ngConf-2018/notes/NG-Conf-Day-2-41918.md)
+* [day 3](https://tgrux.github.io/presentations/ngConf-2018/notes/NgConf-Day-3-42018.md)
