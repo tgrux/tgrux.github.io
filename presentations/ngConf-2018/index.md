@@ -8,7 +8,9 @@
 * [day 1](https://tgrux.github.io/presentations/ngConf-2018/notes/NG-Conf-Day-1-41818)
 * [day 2](https://tgrux.github.io/presentations/ngConf-2018/notes/NG-Conf-Day-2-41918)
 * [day 3](https://tgrux.github.io/presentations/ngConf-2018/notes/NgConf-Day-3-42018)
-* [Knowledge Transfer](https://tgrux.github.io/presentations/ngConf-2018/knowledge-transfer)
+* [Knowledge Transfer](https://tgrux.github.io/presentations/ngConf-2018/knowledge-transfer/ngConf2018)
 
 # I'm following up on
-* 
+* [Complex Form Example](https://github.com/nscarlyon/dnd)
+* [CDK Example](https://github.com/EladBezalel/ngconf-cdk-workshop)
+* [DevOps Checklist](https://drive.google.com/drive/folders/13OnVqbFvz-w-dDc2FQ9_Yv2eXmrhBl5X)

@@ -1,0 +1,53 @@
+{
+  "autoplayTransitionDelay" : 5,
+  "author" : "",
+  "timestamp" : "2018-11-26 12:4:5",
+  "loopSlideshow" : 0,
+  "filename" : "ngConf2018.key",
+  "autoplayBuildDelay" : 2,
+  "comment" : "",
+  "title" : "ngConf2018.key",
+  "showMode" : 0,
+  "creator" : "Apple Keynote 8.0",
+  "slideList" : [
+    "6725CEFE-DB10-4B54-8734-00F0251C0E25",
+    "58A3C44E-9C87-442A-8649-37E3CA4EE6AF",
+    "514307E2-63E2-448E-893E-3E25923B4965",
+    "91208DEA-E1B2-465A-A13E-2D1D392DDF5E",
+    "4CAF7F85-C86C-4281-814C-F4381B43D9E5",
+    "24DA6894-1265-4CBB-9017-BB2991ED143E",
+    "851774C4-FDAA-4592-A41B-6AE46E75C6BF",
+    "276BBB9E-9455-4E08-A367-02D5ECF5EC12",
+    "4BD8A699-53BF-45C8-A940-A0E1AF478295",
+    "78CB0BC7-7CD8-47D7-ADB2-2D2598948FF1",
+    "253DEECF-9493-4D37-BE7A-0741A9DE5085",
+    "B7DA3D8F-AFB5-4841-97D8-87E46F9DD8A3",
+    "8B8AF782-6A37-4DBC-9667-31BDA8245BBA",
+    "221F114B-8224-4F49-A54A-A831E2FBD5A5",
+    "71B1B80D-1110-428C-BD4D-AE8D8830D378",
+    "CC0516C9-2080-4FF7-8C44-7E67D14E1C9C",
+    "2E86FB65-4BFA-4A86-9DB0-9B545E6E6E08",
+    "73D750C9-1C15-4F1B-817D-F5E1F8E3FB7A",
+    "2DF7DE1B-3EB4-4979-95FE-7AAE5E0ADD0C",
+    "145E9457-B869-4F04-8660-2331EAB65E39",
+    "77E75874-BE05-48E2-A02E-1B07033A6ACE"
+  ],
+  "soundtrack" : {
+    "mode" : 0,
+    "volume" : 1
+  },
+  "slideWidth" : 1920,
+  "slideHeight" : 1080,
+  "slideCount" : 21,
+  "majorVersion" : 1,
+  "minorVersion" : 2,
+  "fonts" : [
+    "Helvetica-Light",
+    "HelveticaNeue-Bold",
+    "HelveticaNeue-Medium",
+    "HelveticaNeue",
+    "GillSans",
+    "Helvetica",
+    "HelveticaNeue-BoldItalic"
+  ]
+}
