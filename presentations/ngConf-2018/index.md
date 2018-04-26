@@ -4,6 +4,6 @@
 
 
 # My Notes
-* [day 1](https://tgrux.github.io/presentations/ngConf-2018/notes/NG-Conf-Day-1-41818.md)
-* [day 2](https://tgrux.github.io/presentations/ngConf-2018/notes/NG-Conf-Day-2-41918.md)
-* [day 3](https://tgrux.github.io/presentations/ngConf-2018/notes/NgConf-Day-3-42018.md)
+* [day 1](https://tgrux.github.io/presentations/ngConf-2018/notes/NG-Conf-Day-1-41818)
+* [day 2](https://tgrux.github.io/presentations/ngConf-2018/notes/NG-Conf-Day-2-41918)
+* [day 3](https://tgrux.github.io/presentations/ngConf-2018/notes/NgConf-Day-3-42018)
