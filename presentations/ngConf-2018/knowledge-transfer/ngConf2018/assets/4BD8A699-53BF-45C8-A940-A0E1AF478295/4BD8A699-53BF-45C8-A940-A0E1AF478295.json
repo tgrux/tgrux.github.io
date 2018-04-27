@@ -28,20 +28,6 @@
       "width" : 1920,
       "height" : 1080
     },
-    "139716B9B9DB22A5762C4CAC2F406D4C" : {
-      "type" : "texture",
-      "index" : 2,
-      "assetRequest" : {
-        "type" : "slide",
-        "state" : "contents",
-        "slide" : "none"
-      },
-      "url" : {
-        "native" : "assets\/4BD8A699-53BF-45C8-A940-A0E1AF478295.pdf"
-      },
-      "width" : 1920,
-      "height" : 1080
-    },
     "F3DE8CB385F99AEC08D453C4CA6672A0" : {
       "type" : "texture",
       "index" : 1,
@@ -55,6 +41,20 @@
       },
       "width" : 820,
       "height" : 822
+    },
+    "7B973203E31CC9417166D7672A3323CC" : {
+      "type" : "texture",
+      "index" : 2,
+      "assetRequest" : {
+        "type" : "slide",
+        "state" : "contents",
+        "slide" : "none"
+      },
+      "url" : {
+        "native" : "assets\/4BD8A699-53BF-45C8-A940-A0E1AF478295.pdf"
+      },
+      "width" : 1920,
+      "height" : 1080
     }
   },
   "events" : [
@@ -151,7 +151,7 @@
                     0,
                     0,
                     1,
-                    -0.00035007912466775983,
+                    -0.0003500791246677598,
                     0,
                     0,
                     0,
@@ -238,7 +238,7 @@
                         "pointY" : 0.5
                       }
                     },
-                    "texture" : "139716B9B9DB22A5762C4CAC2F406D4C"
+                    "texture" : "7B973203E31CC9417166D7672A3323CC"
                   },
                   {
                     "animations" : [
@@ -344,107 +344,107 @@
           "targetRectangle" : {
             "y" : 128,
             "x" : 117,
-            "width" : 370.99223999999998,
-            "height" : 52.726014404296876
+            "width" : 370.99224,
+            "height" : 52.72601440429688
           }
         },
         {
           "text" : "Benefits: ",
           "targetRectangle" : {
             "y" : 182,
-            "x" : 143.23000172003458,
-            "width" : 122.17324000000002,
-            "height" : 69.176065602302572
+            "x" : 143.2300017200346,
+            "width" : 122.17324,
+            "height" : 69.17606560230257
           }
         },
         {
           "text" : "Easy to setup, VERY fast",
           "targetRectangle" : {
-            "y" : 251.99000084400177,
-            "x" : 186.23000172003458,
-            "width" : 320.22071999999991,
-            "height" : 69.176065602302572
+            "y" : 251.9900008440018,
+            "x" : 186.2300017200346,
+            "width" : 320.2207199999999,
+            "height" : 69.17606560230257
           }
         },
         {
           "text" : "npm install jest-preset-angular",
           "targetRectangle" : {
-            "y" : 321.98000168800354,
-            "x" : 229.23000172003458,
-            "width" : 395.58987999999999,
-            "height" : 69.176065602302572
+            "y" : 321.9800016880035,
+            "x" : 229.2300017200346,
+            "width" : 395.58988,
+            "height" : 69.17606560230257
           }
         },
         {
           "text" : "VERY nice output :)",
           "targetRectangle" : {
-            "y" : 391.97000253200531,
-            "x" : 229.23000172003458,
-            "width" : 249.48145999999997,
-            "height" : 69.176065602302572
+            "y" : 391.9700025320053,
+            "x" : 229.2300017200346,
+            "width" : 249.48146,
+            "height" : 69.17606560230257
           }
         },
         {
           "text" : "Snapshot testing - lets you automate creating assertions.",
           "targetRectangle" : {
-            "y" : 461.96000337600708,
-            "x" : 186.23000172003458,
-            "width" : 740.25085999999988,
-            "height" : 69.176065602302515
+            "y" : 461.9600033760071,
+            "x" : 186.2300017200346,
+            "width" : 740.2508599999999,
+            "height" : 69.17606560230251
           }
         },
         {
           "text" : "writes out a good snapshot to GIT",
           "targetRectangle" : {
-            "y" : 531.95000422000885,
-            "x" : 229.23000172003458,
+            "y" : 531.9500042200089,
+            "x" : 229.2300017200346,
             "width" : 441.3276800000001,
-            "height" : 69.176065602302515
+            "height" : 69.17606560230251
           }
         },
         {
           "text" : "expect(state).toMatchShapshot().",
           "targetRectangle" : {
-            "y" : 601.94000506401062,
-            "x" : 229.23000172003458,
+            "y" : 601.9400050640106,
+            "x" : 229.2300017200346,
             "width" : 430.8893599999999,
-            "height" : 69.176065602302515
+            "height" : 69.17606560230251
           }
         },
         {
           "text" : "Cons:",
           "targetRectangle" : {
-            "y" : 671.93000590801239,
-            "x" : 143.23000172003458,
-            "width" : 75.369159999999994,
-            "height" : 69.176065602302515
+            "y" : 671.9300059080124,
+            "x" : 143.2300017200346,
+            "width" : 75.36915999999999,
+            "height" : 69.17606560230251
           }
         },
         {
           "text" : "Trust, but verify snapshots.",
           "targetRectangle" : {
-            "y" : 741.92000675201416,
-            "x" : 186.23000172003458,
-            "width" : 350.38521999999989,
-            "height" : 69.176065602302515
+            "y" : 741.9200067520142,
+            "x" : 186.2300017200346,
+            "width" : 350.3852199999999,
+            "height" : 69.17606560230251
           }
         },
         {
           "text" : "No way to log that the snapshots were verified",
           "targetRectangle" : {
-            "y" : 811.91000759601593,
-            "x" : 186.23000172003458,
-            "width" : 600.96101999999996,
-            "height" : 69.176065602302515
+            "y" : 811.9100075960159,
+            "x" : 186.2300017200346,
+            "width" : 600.96102,
+            "height" : 69.17606560230251
           }
         },
         {
           "text" : "VSCode plugin snapshottools",
           "targetRectangle" : {
             "y" : 881.9000084400177,
-            "x" : 186.23000172003458,
-            "width" : 384.11333999999999,
-            "height" : 69.176065602302515
+            "x" : 186.2300017200346,
+            "width" : 384.11334,
+            "height" : 69.17606560230251
           }
         }
       ],
@@ -804,14 +804,14 @@
                     ],
                     "texturedRectangle" : {
                       "singleTextureOpacity" : 1,
-                      "textXHeight" : 0.027623649635036496,
-                      "textBaseline" : 0.98416932801550616,
+                      "textXHeight" : 0.0276236496350365,
+                      "textBaseline" : 0.9841693280155062,
                       "isBackgroundTexture" : true,
                       "isVerticalText" : false,
                       "textColor" : [
-                        0.99990874528884888,
+                        0.9999087452888489,
                         1,
-                        0.99987798929214478,
+                        0.9998779892921448,
                         1
                       ],
                       "textureType" : 6

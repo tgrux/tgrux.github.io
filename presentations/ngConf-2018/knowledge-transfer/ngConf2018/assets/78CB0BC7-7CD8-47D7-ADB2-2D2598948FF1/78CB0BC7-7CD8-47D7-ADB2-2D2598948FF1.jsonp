@@ -2,20 +2,6 @@ local_slide( {
   "name" : "78CB0BC7-7CD8-47D7-ADB2-2D2598948FF1",
   "json" : {
     "assets" : {
-      "75040BC25D345A257966A2F71757D85B" : {
-        "type" : "texture",
-        "index" : 1,
-        "assetRequest" : {
-          "type" : "slide",
-          "state" : "contents",
-          "slide" : "none"
-        },
-        "url" : {
-          "native" : "assets\/78CB0BC7-7CD8-47D7-ADB2-2D2598948FF1.pdf"
-        },
-        "width" : 1516,
-        "height" : 777
-      },
       "3C48462B1294485D608C732E7DB1BE0C" : {
         "type" : "texture",
         "index" : 2,
@@ -29,6 +15,20 @@ local_slide( {
         },
         "width" : 1920,
         "height" : 1080
+      },
+      "FC00D0D59FB687A75ABC359CB81A71A6" : {
+        "type" : "texture",
+        "index" : 1,
+        "assetRequest" : {
+          "type" : "slide",
+          "state" : "contents",
+          "slide" : "none"
+        },
+        "url" : {
+          "native" : "assets\/78CB0BC7-7CD8-47D7-ADB2-2D2598948FF1.pdf"
+        },
+        "width" : 1662,
+        "height" : 768
       },
       "E7CED0F24219233B77C817049E42930C" : {
         "type" : "texture",
@@ -44,7 +44,7 @@ local_slide( {
         "width" : 1920,
         "height" : 1080
       },
-      "139716B9B9DB22A5762C4CAC2F406D4C" : {
+      "7B973203E31CC9417166D7672A3323CC" : {
         "type" : "texture",
         "index" : 3,
         "assetRequest" : {
@@ -153,7 +153,7 @@ local_slide( {
                       0,
                       0,
                       1,
-                      -0.00035007912466775983,
+                      -0.0003500791246677598,
                       0,
                       0,
                       0,
@@ -321,7 +321,7 @@ local_slide( {
                           "pointY" : 0.5
                         }
                       },
-                      "texture" : "139716B9B9DB22A5762C4CAC2F406D4C"
+                      "texture" : "7B973203E31CC9417166D7672A3323CC"
                     }
                   ]
                 }
@@ -344,118 +344,118 @@ local_slide( {
           {
             "text" : "Jasmine Marbles",
             "targetRectangle" : {
-              "y" : 128,
+              "y" : 132,
               "x" : 116.5,
-              "width" : 274.98384000000004,
-              "height" : 40.018404541015627
+              "width" : 321.7896,
+              "height" : 47.85132446289063
             }
           },
           {
             "text" : "Visual testing for observables",
             "targetRectangle" : {
-              "y" : 169,
-              "x" : 136.710001120671,
-              "width" : 294.63736,
-              "height" : 54.102869497537597
+              "y" : 181,
+              "x" : 140.1500014631645,
+              "width" : 344.7884,
+              "height" : 62.71612466573714
             }
           },
           {
             "text" : "“-” equals 10sec of time, “a” = emit, “|” complete, “#” is an error. ",
             "targetRectangle" : {
-              "y" : 210.54356514573098,
-              "x" : 136.710001120671,
-              "width" : 646.17855999999983,
-              "height" : 54.102869497537625
+              "y" : 229.3169387221336,
+              "x" : 140.1500014631645,
+              "width" : 756.1664000000003,
+              "height" : 62.71612466573717
             }
           },
           {
             "text" : "ex: ——– = observable.never ",
             "targetRectangle" : {
-              "y" : 252.08713029146196,
-              "x" : 136.710001120671,
-              "width" : 292.56183999999996,
-              "height" : 54.102869497537597
+              "y" : 277.6338774442673,
+              "x" : 140.1500014631645,
+              "width" : 342.3596,
+              "height" : 62.71612466573714
             }
           },
           {
             "text" : "ex: —(ab)–| = 30ms, emit a&b, 20ms, complete. ",
             "targetRectangle" : {
-              "y" : 293.63069543719291,
-              "x" : 136.710001120671,
-              "width" : 473.15369999999984,
-              "height" : 54.102869497537654
+              "y" : 325.950816166401,
+              "x" : 140.1500014631645,
+              "width" : 553.6905000000002,
+              "height" : 62.71612466573714
             }
           },
           {
             "text" : "flush() = runs the sequence. → always flush at the end of the test. ",
             "targetRectangle" : {
-              "y" : 335.17426058292392,
-              "x" : 136.710001120671,
-              "width" : 657.42095999999981,
-              "height" : 54.102869497537597
+              "y" : 374.2677548885346,
+              "x" : 140.1500014631645,
+              "width" : 769.3224,
+              "height" : 62.71612466573714
             }
           },
           {
             "text" : "Setup: jasmine-marbles",
             "targetRectangle" : {
-              "y" : 376.71782572865493,
-              "x" : 136.710001120671,
-              "width" : 236.28498000000002,
-              "height" : 54.102869497537597
+              "y" : 422.5846936106682,
+              "x" : 140.1500014631645,
+              "width" : 276.5037,
+              "height" : 62.71612466573714
             }
           },
           {
             "text" : "Angular Testing Library",
             "targetRectangle" : {
-              "y" : 418.26139087438588,
+              "y" : 470.9016323328018,
               "x" : 116.5,
-              "width" : 372.81528000000003,
-              "height" : 67.748404470682146
+              "width" : 436.2732000000001,
+              "height" : 80.30132516622541
             }
           },
           {
             "text" : "Create component fixtures quickly",
             "targetRectangle" : {
-              "y" : 486.9913908040524,
-              "x" : 136.710001120671,
-              "width" : 342.43917999999991,
-              "height" : 54.102869497537597
+              "y" : 552.3516330361366,
+              "x" : 140.1500014631645,
+              "width" : 400.7267000000001,
+              "height" : 62.71612466573708
             }
           },
           {
             "text" : "Magically mock out dependencies",
             "targetRectangle" : {
-              "y" : 541.72139073371886,
-              "x" : 136.710001120671,
-              "width" : 341.6608599999999,
-              "height" : 54.102869497537654
+              "y" : 615.8016337394714,
+              "x" : 140.1500014631645,
+              "width" : 399.8159000000001,
+              "height" : 62.7161246657372
             }
           },
           {
             "text" : "TestBed.configureTestingModule({imports: [ NoopAnimationsModule ← disables animations ], …}) createComponentFixture ← similar to the test bed.",
             "targetRectangle" : {
-              "y" : 596.45139066338538,
-              "x" : 136.710001120671,
-              "width" : 1483.0671400000008,
-              "height" : 54.102869497537768
+              "y" : 679.2516344428062,
+              "x" : 140.1500014631645,
+              "width" : 1632.4066,
+              "height" : 93.7161246657372
             }
           },
           {
             "text" : "Rather than inject, use TestBed.get() - I’m doing this today.",
             "targetRectangle" : {
-              "y" : 651.1813905930519,
-              "x" : 179.710001120671,
-              "width" : 583.97781999999972,
-              "height" : 54.102869497537654
+              "y" : 773.701635146141,
+              "x" : 183.1500014631645,
+              "width" : 683.3783,
+              "height" : 62.7161246657372
             }
           },
           {
             "text" : "Examples: Ngrx Sample Book App in GitHub",
             "targetRectangle" : {
-              "y" : 705.91139052271842,
-              "x" : 136.710001120671,
-              "width" : 443.70725999999991,
-              "height" : 54.102869497537654
+              "y" : 837.1516358494758,
+              "x" : 140.1500014631645,
+              "width" : 519.2319000000001,
+              "height" : 62.7161246657372
             }
           }
         ],
@@ -768,10 +768,10 @@ local_slide( {
                     "rotation" : 0,
                     "scale" : 1,
                     "position" : {
-                      "pointX" : 870.5,
-                      "pointY" : 512.5
+                      "pointX" : 943.5,
+                      "pointY" : 508
                     },
-                    "width" : 1516,
+                    "width" : 1662,
                     "sublayerTransform" : [
                       1,
                       0,
@@ -798,7 +798,7 @@ local_slide( {
                     },
                     "opacity" : 1,
                     "edgeAntialiasingMask" : 251658240,
-                    "height" : 777,
+                    "height" : 768,
                     "hidden" : false,
                     "anchorPoint" : {
                       "pointX" : 0.5,
@@ -815,14 +815,14 @@ local_slide( {
                       ],
                       "texturedRectangle" : {
                         "singleTextureOpacity" : 1,
-                        "textXHeight" : 0.022516447876447878,
-                        "textBaseline" : 1.0438181158643278,
+                        "textXHeight" : 0.0266578125,
+                        "textBaseline" : 1.04278639263163,
                         "isBackgroundTexture" : true,
                         "isVerticalText" : false,
                         "textColor" : [
-                          0.99990874528884888,
+                          0.9999087452888489,
                           1,
-                          0.99987798929214478,
+                          0.9998779892921448,
                           1
                         ],
                         "textureType" : 6
@@ -840,10 +840,10 @@ local_slide( {
                         "rotation" : 0,
                         "scale" : 1,
                         "position" : {
-                          "pointX" : 755.5,
-                          "pointY" : 397.5
+                          "pointX" : 828.5,
+                          "pointY" : 399
                         },
-                        "width" : 1516,
+                        "width" : 1662,
                         "sublayerTransform" : [
                           1,
                           0,
@@ -870,14 +870,14 @@ local_slide( {
                         },
                         "opacity" : 1,
                         "edgeAntialiasingMask" : 0,
-                        "height" : 777,
+                        "height" : 768,
                         "hidden" : false,
                         "anchorPoint" : {
                           "pointX" : 0.5,
                           "pointY" : 0.5
                         }
                       },
-                      "texture" : "75040BC25D345A257966A2F71757D85B"
+                      "texture" : "FC00D0D59FB687A75ABC359CB81A71A6"
                     }
                   ]
                 }

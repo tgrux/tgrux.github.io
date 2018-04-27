@@ -2,6 +2,20 @@ local_slide( {
   "name" : "2E86FB65-4BFA-4A86-9DB0-9B545E6E6E08",
   "json" : {
     "assets" : {
+      "911B78A84F2C12A778F193B16940AA13" : {
+        "type" : "texture",
+        "index" : 3,
+        "assetRequest" : {
+          "type" : "slide",
+          "state" : "contents",
+          "slide" : "none"
+        },
+        "url" : {
+          "native" : "assets\/2E86FB65-4BFA-4A86-9DB0-9B545E6E6E08.pdf"
+        },
+        "width" : 1920,
+        "height" : 1080
+      },
       "A2DFF9FF959CD474B2DD4CFE875C01BE" : {
         "type" : "texture",
         "index" : 2,
@@ -15,20 +29,6 @@ local_slide( {
         },
         "width" : 1416,
         "height" : 755
-      },
-      "CBCDE58197DAE4A931D88C6E2BD5324B" : {
-        "type" : "texture",
-        "index" : 3,
-        "assetRequest" : {
-          "type" : "slide",
-          "state" : "contents",
-          "slide" : "none"
-        },
-        "url" : {
-          "native" : "assets\/2E86FB65-4BFA-4A86-9DB0-9B545E6E6E08.pdf"
-        },
-        "width" : 1920,
-        "height" : 1080
       },
       "E7CED0F24219233B77C817049E42930C" : {
         "type" : "texture",
@@ -167,7 +167,7 @@ local_slide( {
                       0,
                       0,
                       1,
-                      -0.00035007912466775983,
+                      -0.0003500791246677598,
                       0,
                       0,
                       0,
@@ -254,7 +254,7 @@ local_slide( {
                           "pointY" : 0.5
                         }
                       },
-                      "texture" : "CBCDE58197DAE4A931D88C6E2BD5324B"
+                      "texture" : "911B78A84F2C12A778F193B16940AA13"
                     },
                     {
                       "animations" : [
@@ -356,102 +356,102 @@ local_slide( {
         ],
         "accessibility" : [
           {
-            "text" : "Angular at Large Organizations",
-            "targetRectangle" : {
-              "y" : 38,
-              "x" : 294.72500000000014,
-              "width" : 1331.5499999999997,
-              "height" : 108.38937377929688
-            }
-          },
-          {
             "text" : "Promote Best Practices Using Tooling",
             "targetRectangle" : {
               "y" : 180.68359375,
               "x" : 117,
-              "width" : 870.82848000000013,
-              "height" : 56.600704345703122
+              "width" : 870.8284800000001,
+              "height" : 56.60070434570312
             }
           },
           {
             "text" : "Only run tests against code that has been changed “–untracked”",
             "targetRectangle" : {
               "y" : 238.68359375,
-              "x" : 145.81000197690469,
-              "width" : 919.76125999999954,
-              "height" : 76.636006538867946
+              "x" : 145.8100019769047,
+              "width" : 919.7612599999995,
+              "height" : 76.63600653886795
             }
           },
           {
             "text" : "npm yarn dept-graph allows you to visualize dependenciesPromote Best Practices Using Tooling",
             "targetRectangle" : {
-              "y" : 316.21359473466873,
-              "x" : 145.81000197690469,
-              "width" : 1377.2225200000003,
-              "height" : 76.636006538867946
+              "y" : 316.2135947346687,
+              "x" : 145.8100019769047,
+              "width" : 1377.22252,
+              "height" : 76.63600653886795
             }
           },
           {
             "text" : "Typically: An out-of-sync wiki page no one reads, code reviews that don’t check much",
             "targetRectangle" : {
-              "y" : 393.74359571933746,
-              "x" : 145.81000197690469,
+              "y" : 393.7435957193375,
+              "x" : 145.8100019769047,
               "width" : 1221.98218,
-              "height" : 76.636006538867946
+              "height" : 76.63600653886795
             }
           },
           {
             "text" : "To Fix",
             "targetRectangle" : {
               "y" : 471.2735967040062,
-              "x" : 145.81000197690469,
-              "width" : 83.953679999999991,
-              "height" : 76.636006538867946
+              "x" : 145.8100019769047,
+              "width" : 83.95367999999999,
+              "height" : 76.63600653886795
             }
           },
           {
             "text" : "schematics and custom schematics (yarn workspace-schematics)",
             "targetRectangle" : {
-              "y" : 548.80359768867493,
-              "x" : 188.81000197690469,
-              "width" : 938.09915999999998,
-              "height" : 76.636006538867946
+              "y" : 548.8035976886749,
+              "x" : 188.8100019769047,
+              "width" : 938.09916,
+              "height" : 76.63600653886795
             }
           },
           {
             "text" : "data-access-lib, yarn dep-graph,",
             "targetRectangle" : {
-              "y" : 626.33359867334366,
-              "x" : 188.81000197690469,
-              "width" : 467.63185999999985,
-              "height" : 76.636006538867946
+              "y" : 626.3335986733437,
+              "x" : 188.8100019769047,
+              "width" : 467.6318599999998,
+              "height" : 76.63600653886795
             }
           },
           {
             "text" : "allows users to have a basic boiler plate",
             "targetRectangle" : {
-              "y" : 703.86359965801239,
-              "x" : 188.81000197690469,
-              "width" : 568.78309999999988,
-              "height" : 76.636006538867946
+              "y" : 703.8635996580124,
+              "x" : 188.8100019769047,
+              "width" : 568.7830999999999,
+              "height" : 76.63600653886795
             }
           },
           {
             "text" : "Automate everything that can be automated (use Prettier)",
             "targetRectangle" : {
-              "y" : 781.39360064268112,
-              "x" : 188.81000197690469,
+              "y" : 781.3936006426811,
+              "x" : 188.8100019769047,
               "width" : 815.2814599999997,
-              "height" : 76.636006538867946
+              "height" : 76.63600653886795
             }
           },
           {
             "text" : "Checklist: https:\/\/drive.google.com\/drive\/folders\/13OnVqbFvz-w-dDc2FQ9_Yv2eXmrhBl5X",
             "targetRectangle" : {
-              "y" : 858.92360162734985,
-              "x" : 188.81000197690469,
-              "width" : 1289.8169999999996,
-              "height" : 76.636006538867946
+              "y" : 858.9236016273499,
+              "x" : 188.8100019769047,
+              "width" : 1289.817,
+              "height" : 76.63600653886795
+            }
+          },
+          {
+            "text" : "Angular at Large Organizations",
+            "targetRectangle" : {
+              "y" : 38,
+              "x" : 294.7250000000001,
+              "width" : 1331.55,
+              "height" : 108.3893737792969
             }
           }
         ],
@@ -812,13 +812,13 @@ local_slide( {
                       "texturedRectangle" : {
                         "singleTextureOpacity" : 1,
                         "textXHeight" : 0.495,
-                        "textBaseline" : 0.73255108772440158,
+                        "textBaseline" : 0.7325510877244016,
                         "isBackgroundTexture" : true,
                         "isVerticalText" : false,
                         "textColor" : [
-                          0.99990874528884888,
+                          0.9999087452888489,
                           1,
-                          0.99987798929214478,
+                          0.9998779892921448,
                           1
                         ],
                         "textureType" : 6
@@ -998,14 +998,14 @@ local_slide( {
                       ],
                       "texturedRectangle" : {
                         "singleTextureOpacity" : 1,
-                        "textXHeight" : 0.033033218543046361,
-                        "textBaseline" : 0.98128717204277094,
+                        "textXHeight" : 0.03303321854304636,
+                        "textBaseline" : 0.9812871720427709,
                         "isBackgroundTexture" : true,
                         "isVerticalText" : false,
                         "textColor" : [
-                          0.99990874528884888,
+                          0.9999087452888489,
                           1,
-                          0.99987798929214478,
+                          0.9998779892921448,
                           1
                         ],
                         "textureType" : 6

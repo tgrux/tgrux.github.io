@@ -1,7 +1,7 @@
 local_header( {
   "autoplayTransitionDelay" : 5,
   "author" : "",
-  "timestamp" : "2018-11-26 12:4:5",
+  "timestamp" : "2018-17-27 8:4:7",
   "loopSlideshow" : 0,
   "filename" : "ngConf2018.key",
   "autoplayBuildDelay" : 2,
@@ -27,10 +27,10 @@ local_header( {
     "71B1B80D-1110-428C-BD4D-AE8D8830D378",
     "CC0516C9-2080-4FF7-8C44-7E67D14E1C9C",
     "2E86FB65-4BFA-4A86-9DB0-9B545E6E6E08",
-    "73D750C9-1C15-4F1B-817D-F5E1F8E3FB7A",
     "2DF7DE1B-3EB4-4979-95FE-7AAE5E0ADD0C",
-    "145E9457-B869-4F04-8660-2331EAB65E39",
-    "77E75874-BE05-48E2-A02E-1B07033A6ACE"
+    "73D750C9-1C15-4F1B-817D-F5E1F8E3FB7A",
+    "77E75874-BE05-48E2-A02E-1B07033A6ACE",
+    "145E9457-B869-4F04-8660-2331EAB65E39"
   ],
   "soundtrack" : {
     "mode" : 0,
@@ -44,10 +44,10 @@ local_header( {
   "fonts" : [
     "Helvetica-Light",
     "HelveticaNeue-Bold",
-    "HelveticaNeue-Medium",
     "HelveticaNeue",
-    "GillSans",
+    "HelveticaNeue-BoldItalic",
     "Helvetica",
-    "HelveticaNeue-BoldItalic"
+    "GillSans",
+    "HelveticaNeue-Medium"
   ]
 } )

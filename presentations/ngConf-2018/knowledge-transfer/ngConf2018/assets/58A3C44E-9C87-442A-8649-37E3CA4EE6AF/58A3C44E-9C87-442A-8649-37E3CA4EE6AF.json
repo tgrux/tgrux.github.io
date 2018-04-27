@@ -14,9 +14,9 @@
       "width" : 875,
       "height" : 739
     },
-    "A5CA3A8ECE19B997DD12936FB39F2AC8" : {
+    "CE44BC70F3BDDE90D4D4AD8A0062D6B1" : {
       "type" : "texture",
-      "index" : 4,
+      "index" : 6,
       "assetRequest" : {
         "type" : "slide",
         "state" : "contents",
@@ -25,8 +25,8 @@
       "url" : {
         "native" : "assets\/58A3C44E-9C87-442A-8649-37E3CA4EE6AF.pdf"
       },
-      "width" : 810,
-      "height" : 586
+      "width" : 1920,
+      "height" : 1080
     },
     "BB0789FF687FCFD9736B12B06555EFB0" : {
       "type" : "texture",
@@ -70,9 +70,9 @@
       "width" : 1920,
       "height" : 1080
     },
-    "1D5899405692D652ADA53DE6D76580AA" : {
+    "5A8B06187A188B54CE22765621335592" : {
       "type" : "texture",
-      "index" : 6,
+      "index" : 4,
       "assetRequest" : {
         "type" : "slide",
         "state" : "contents",
@@ -81,8 +81,8 @@
       "url" : {
         "native" : "assets\/58A3C44E-9C87-442A-8649-37E3CA4EE6AF.pdf"
       },
-      "width" : 1920,
-      "height" : 1080
+      "width" : 810,
+      "height" : 586
     },
     "4E7BC58E3954142756D6C2D00C29AF9F" : {
       "type" : "texture",
@@ -193,7 +193,7 @@
                     0,
                     0,
                     1,
-                    -0.00035007912466775983,
+                    -0.0003500791246677598,
                     0,
                     0,
                     0,
@@ -361,7 +361,7 @@
                         "pointY" : 0.5
                       }
                     },
-                    "texture" : "1D5899405692D652ADA53DE6D76580AA"
+                    "texture" : "CE44BC70F3BDDE90D4D4AD8A0062D6B1"
                   }
                 ]
               }
@@ -382,18 +382,117 @@
           "url" : "https:\/\/github.com\/angular\/angular\/blob\/master\/docs\/RELEASE_SCHEDULE.md",
           "targetRectangle" : {
             "y" : 329,
-            "x" : 610.63210219928601,
-            "width" : 90.460140000000024,
-            "height" : 66.045347843170134
+            "x" : 610.632102199286,
+            "width" : 90.46013999999991,
+            "height" : 66.04534784317013
           }
         }
       ],
       "accessibility" : [
         {
+          "text" : "Angular LTS",
+          "targetRectangle" : {
+            "y" : 265,
+            "x" : 414.51039625,
+            "width" : 301.79952,
+            "height" : 62.4753942871094
+          }
+        },
+        {
+          "text" : "1 year to update per major version (Source).",
+          "targetRectangle" : {
+            "y" : 329,
+            "x" : 155.2800021992859,
+            "width" : 561.23568,
+            "height" : 66.04534784317013
+          }
+        },
+        {
+          "text" : "v4 LTS ends Oct 2018 ",
+          "targetRectangle" : {
+            "y" : 382.5718628558003,
+            "x" : 155.2800021992859,
+            "width" : 286.30454,
+            "height" : 66.04534784317019
+          }
+        },
+        {
+          "text" : "V6 LTS ends Oct 2019",
+          "targetRectangle" : {
+            "y" : 436.1437257116006,
+            "x" : 155.2800021992859,
+            "width" : 281.1449,
+            "height" : 66.04534784317019
+          }
+        },
+        {
+          "text" : "Angular v6 Changes",
+          "targetRectangle" : {
+            "y" : 556.5655894257079,
+            "x" : 314.22591625,
+            "width" : 502.3684799999999,
+            "height" : 62.47539428710934
+          }
+        },
+        {
+          "text" : "Aligning Library Releases",
+          "targetRectangle" : {
+            "y" : 620.5655894257079,
+            "x" : 155.2800021992859,
+            "width" : 324.33608,
+            "height" : 58.01534763336178
+          }
+        },
+        {
+          "text" : "@angular = should be aligned.",
+          "targetRectangle" : {
+            "y" : 679.3855900742064,
+            "x" : 191.2800021992859,
+            "width" : 385.2253800000001,
+            "height" : 58.01534763336178
+          }
+        },
+        {
+          "text" : "CLI Updates - Ivy",
+          "targetRectangle" : {
+            "y" : 738.205590722705,
+            "x" : 155.2800021992859,
+            "width" : 222.5025400000001,
+            "height" : 58.01534763336178
+          }
+        },
+        {
+          "text" : "Focus on reusability",
+          "targetRectangle" : {
+            "y" : 797.0255913712035,
+            "x" : 155.2800021992859,
+            "width" : 257.51042,
+            "height" : 58.01534763336178
+          }
+        },
+        {
+          "text" : "Schematics",
+          "targetRectangle" : {
+            "y" : 855.8455920197021,
+            "x" : 191.2800021992859,
+            "width" : 150.04566,
+            "height" : 58.01534763336178
+          }
+        },
+        {
+          "text" : "Angular Elements - embeddable Angular javascript component - can use in other frameworks (vue, react, etc…) ",
+          "targetRectangle" : {
+            "y" : 914.6655926682006,
+            "x" : 191.2800021992859,
+            "width" : 811.42274,
+            "height" : 92.01534763336178
+          }
+        },
+        {
           "text" : "Screen Shot 2018-04-26 at 8.07.15 AM.png",
           "targetRectangle" : {
-            "y" : 266.56559753417969,
-            "x" : 1020.8221464157104,
+            "y" : 266.5655975341797,
+            "x" : 1020.82214641571,
             "width" : 488.34375,
             "height" : 195.75
           }
@@ -402,126 +501,27 @@
           "text" : "Angular Roadmap",
           "targetRectangle" : {
             "y" : 112,
-            "x" : 573.95000000000005,
-            "width" : 773.09999999999991,
-            "height" : 108.38937377929688
-          }
-        },
-        {
-          "text" : "Screen Shot 2018-04-26 at 8.07.39 AM.png",
-          "targetRectangle" : {
-            "y" : 730,
-            "x" : 1025.6597900390625,
-            "width" : 531.6705322265625,
-            "height" : 291.02487182617188
-          }
-        },
-        {
-          "text" : "Angular LTS",
-          "targetRectangle" : {
-            "y" : 265,
-            "x" : 414.51039624999999,
-            "width" : 301.79952000000003,
-            "height" : 62.475394287109395
-          }
-        },
-        {
-          "text" : "1 year to update per major version (Source).",
-          "targetRectangle" : {
-            "y" : 329,
-            "x" : 155.28000219928595,
-            "width" : 561.23568000000012,
-            "height" : 66.045347843170134
-          }
-        },
-        {
-          "text" : "v4 LTS ends Oct 2018 ",
-          "targetRectangle" : {
-            "y" : 382.5718628558003,
-            "x" : 155.28000219928595,
-            "width" : 286.30453999999997,
-            "height" : 66.045347843170191
-          }
-        },
-        {
-          "text" : "V6 LTS ends Oct 2019",
-          "targetRectangle" : {
-            "y" : 436.14372571160061,
-            "x" : 155.28000219928595,
-            "width" : 281.14490000000001,
-            "height" : 66.045347843170191
-          }
-        },
-        {
-          "text" : "Angular v6 Changes",
-          "targetRectangle" : {
-            "y" : 556.56558942570791,
-            "x" : 314.22591625000001,
-            "width" : 502.36847999999992,
-            "height" : 62.475394287109339
-          }
-        },
-        {
-          "text" : "Aligning Library Releases",
-          "targetRectangle" : {
-            "y" : 620.56558942570791,
-            "x" : 155.28000219928595,
-            "width" : 324.33608000000004,
-            "height" : 58.015347633361785
-          }
-        },
-        {
-          "text" : "@angular = should be aligned.",
-          "targetRectangle" : {
-            "y" : 679.38559007420645,
-            "x" : 191.28000219928595,
-            "width" : 385.22538000000009,
-            "height" : 58.015347633361785
-          }
-        },
-        {
-          "text" : "CLI Updates - Ivy",
-          "targetRectangle" : {
-            "y" : 738.20559072270498,
-            "x" : 155.28000219928595,
-            "width" : 222.50254000000007,
-            "height" : 58.015347633361785
-          }
-        },
-        {
-          "text" : "Focus on reusability",
-          "targetRectangle" : {
-            "y" : 797.02559137120352,
-            "x" : 155.28000219928595,
-            "width" : 257.51042000000001,
-            "height" : 58.015347633361785
-          }
-        },
-        {
-          "text" : "Schematics",
-          "targetRectangle" : {
-            "y" : 855.84559201970205,
-            "x" : 191.28000219928595,
-            "width" : 150.04566,
-            "height" : 58.015347633361785
-          }
-        },
-        {
-          "text" : "Angular Elements - embeddable Angular javascript component - can use in other frameworks (vue, react, etc…) ",
-          "targetRectangle" : {
-            "y" : 914.66559266820059,
-            "x" : 191.28000219928595,
-            "width" : 811.42273999999998,
-            "height" : 92.015347633361785
+            "x" : 573.95,
+            "width" : 773.0999999999999,
+            "height" : 108.3893737792969
           }
         },
         {
           "text" : "Screen Shot 2018-04-26 at 8.07.28 AM.png",
           "targetRectangle" : {
             "y" : 436.53125,
-            "x" : 1027.2535294294357,
+            "x" : 1027.253529429436,
             "width" : 807.09375,
             "height" : 298.9375
+          }
+        },
+        {
+          "text" : "Screen Shot 2018-04-26 at 8.07.39 AM.png",
+          "targetRectangle" : {
+            "y" : 730,
+            "x" : 1025.659790039062,
+            "width" : 531.6705322265625,
+            "height" : 291.0248718261719
           }
         }
       ],
@@ -834,8 +834,8 @@
                   "rotation" : 0,
                   "scale" : 1,
                   "position" : {
-                    "pointX" : 1266.8221464157104,
-                    "pointY" : 366.06559753417969
+                    "pointX" : 1266.82214641571,
+                    "pointY" : 366.0655975341797
                   },
                   "width" : 492,
                   "sublayerTransform" : [
@@ -900,8 +900,8 @@
                       "rotation" : 0,
                       "scale" : 1,
                       "position" : {
-                        "pointX" : 244.17785358428955,
-                        "pointY" : 97.934402465820312
+                        "pointX" : 244.1778535842896,
+                        "pointY" : 97.93440246582031
                       },
                       "width" : 492,
                       "sublayerTransform" : [
@@ -1062,14 +1062,14 @@
                     ],
                     "texturedRectangle" : {
                       "singleTextureOpacity" : 1,
-                      "textXHeight" : 0.50032258064516133,
+                      "textXHeight" : 0.5003225806451613,
                       "textBaseline" : 0.72967529296875,
                       "isBackgroundTexture" : true,
                       "isVerticalText" : false,
                       "textColor" : [
-                        0.99990874528884888,
+                        0.9999087452888489,
                         1,
-                        0.99987798929214478,
+                        0.9998779892921448,
                         1
                       ],
                       "textureType" : 6
@@ -1203,7 +1203,7 @@
                   "scale" : 1,
                   "position" : {
                     "pointX" : 562.5,
-                    "pointY" : 628.49999999999989
+                    "pointY" : 628.4999999999999
                   },
                   "width" : 875,
                   "sublayerTransform" : [
@@ -1249,14 +1249,14 @@
                     ],
                     "texturedRectangle" : {
                       "singleTextureOpacity" : 1,
-                      "textXHeight" : 0.036770663058186735,
-                      "textBaseline" : 0.98330377857178708,
+                      "textXHeight" : 0.03677066305818674,
+                      "textBaseline" : 0.9833037785717871,
                       "isBackgroundTexture" : true,
                       "isVerticalText" : false,
                       "textColor" : [
-                        0.99990874528884888,
+                        0.9999087452888489,
                         1,
-                        0.99987798929214478,
+                        0.9998779892921448,
                         1
                       ],
                       "textureType" : 6
@@ -1274,8 +1274,8 @@
                       "rotation" : 0,
                       "scale" : 1,
                       "position" : {
-                        "pointX" : 437.49999999999994,
-                        "pointY" : 384.50000000000011
+                        "pointX" : 437.4999999999999,
+                        "pointY" : 384.5000000000001
                       },
                       "width" : 875,
                       "sublayerTransform" : [
@@ -1389,7 +1389,7 @@
                   "rotation" : 0,
                   "scale" : 1,
                   "position" : {
-                    "pointX" : 1430.6597900390625,
+                    "pointX" : 1430.659790039062,
                     "pointY" : 729.53125
                   },
                   "width" : 810,
@@ -1492,7 +1492,7 @@
                         "pointY" : 0.5
                       }
                     },
-                    "texture" : "A5CA3A8ECE19B997DD12936FB39F2AC8"
+                    "texture" : "5A8B06187A188B54CE22765621335592"
                   }
                 ]
               }

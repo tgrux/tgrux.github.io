@@ -1,6 +1,6 @@
 {
   "assets" : {
-    "1D5899405692D652ADA53DE6D76580AA" : {
+    "CE44BC70F3BDDE90D4D4AD8A0062D6B1" : {
       "type" : "texture",
       "index" : 3,
       "assetRequest" : {
@@ -165,7 +165,7 @@
                     0,
                     0,
                     1,
-                    -0.00035007912466775983,
+                    -0.0003500791246677598,
                     0,
                     0,
                     0,
@@ -252,7 +252,7 @@
                         "pointY" : 0.5
                       }
                     },
-                    "texture" : "1D5899405692D652ADA53DE6D76580AA"
+                    "texture" : "CE44BC70F3BDDE90D4D4AD8A0062D6B1"
                   },
                   {
                     "animations" : [
@@ -357,18 +357,18 @@
           "text" : "NgConf 2018 - Takeaways",
           "targetRectangle" : {
             "y" : 576,
-            "x" : 767.92399999999998,
-            "width" : 385.15200000000004,
+            "x" : 767.924,
+            "width" : 385.152,
             "height" : 38.07177734375
           }
         },
         {
           "text" : "2018-04-18 12.17.56.jpg",
           "targetRectangle" : {
-            "y" : 195.98008728027344,
-            "x" : 374.26116943359375,
-            "width" : 1171.4776611328125,
-            "height" : 304.50076293945312
+            "y" : 195.9800872802734,
+            "x" : 374.2611694335938,
+            "width" : 1171.477661132812,
+            "height" : 304.5007629394531
           }
         }
       ],
@@ -728,14 +728,14 @@
                     ],
                     "texturedRectangle" : {
                       "singleTextureOpacity" : 1,
-                      "textXHeight" : 0.40351219512195124,
-                      "textBaseline" : 0.66165682164634143,
+                      "textXHeight" : 0.4035121951219512,
+                      "textBaseline" : 0.6616568216463414,
                       "isBackgroundTexture" : true,
                       "isVerticalText" : false,
                       "textColor" : [
-                        0.99990874528884888,
+                        0.9999087452888489,
                         1,
-                        0.99987798929214478,
+                        0.9998779892921448,
                         1
                       ],
                       "textureType" : 6
@@ -868,8 +868,8 @@
                   "rotation" : 0,
                   "scale" : 1,
                   "position" : {
-                    "pointX" : 981.26116943359375,
-                    "pointY" : 379.98008728027344
+                    "pointX" : 981.2611694335938,
+                    "pointY" : 379.9800872802734
                   },
                   "width" : 1214,
                   "sublayerTransform" : [
@@ -934,8 +934,8 @@
                       "rotation" : 0,
                       "scale" : 1,
                       "position" : {
-                        "pointX" : 585.73883056640625,
-                        "pointY" : 152.01991271972656
+                        "pointX" : 585.7388305664062,
+                        "pointY" : 152.0199127197266
                       },
                       "width" : 1214,
                       "sublayerTransform" : [

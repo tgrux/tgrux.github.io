@@ -2,7 +2,21 @@ local_slide( {
   "name" : "8B8AF782-6A37-4DBC-9667-31BDA8245BBA",
   "json" : {
     "assets" : {
-      "EC0698A13714BB6FF9B10E4882C07DDA" : {
+      "118D77CEF7B4671A8AE40ABCA3D79DD8" : {
+        "type" : "texture",
+        "index" : 2,
+        "assetRequest" : {
+          "type" : "slide",
+          "state" : "contents",
+          "slide" : "none"
+        },
+        "url" : {
+          "native" : "assets\/8B8AF782-6A37-4DBC-9667-31BDA8245BBA.pdf"
+        },
+        "width" : 1635,
+        "height" : 374
+      },
+      "74546EC5DC2ABB5C0606BCFC4319E225" : {
         "type" : "texture",
         "index" : 3,
         "assetRequest" : {
@@ -15,20 +29,6 @@ local_slide( {
         },
         "width" : 1920,
         "height" : 1080
-      },
-      "AF11095C38EA68A790430CDEC02949BB" : {
-        "type" : "texture",
-        "index" : 2,
-        "assetRequest" : {
-          "type" : "slide",
-          "state" : "contents",
-          "slide" : "none"
-        },
-        "url" : {
-          "native" : "assets\/8B8AF782-6A37-4DBC-9667-31BDA8245BBA.pdf"
-        },
-        "width" : 1635,
-        "height" : 490
       },
       "76DCE7607DA08CC5914F7DF68F83EA2E" : {
         "type" : "texture",
@@ -44,7 +44,7 @@ local_slide( {
         "width" : 1310,
         "height" : 94
       },
-      "1B9E24559ABB3A70D28945BFEE963213" : {
+      "E7CED0F24219233B77C817049E42930C" : {
         "type" : "texture",
         "index" : 0,
         "assetRequest" : {
@@ -58,7 +58,7 @@ local_slide( {
         "width" : 1920,
         "height" : 1080
       },
-      "C28C43278E6F1D888A3131E5A06AB3C0" : {
+      "49C44F62D4658FF2CAF1631080B0CE61" : {
         "type" : "texture",
         "index" : 4,
         "assetRequest" : {
@@ -167,7 +167,7 @@ local_slide( {
                       0,
                       0,
                       1,
-                      -0.00035007912466775983,
+                      -0.0003500791246677598,
                       0,
                       0,
                       0,
@@ -254,7 +254,7 @@ local_slide( {
                           "pointY" : 0.5
                         }
                       },
-                      "texture" : "EC0698A13714BB6FF9B10E4882C07DDA"
+                      "texture" : "74546EC5DC2ABB5C0606BCFC4319E225"
                     },
                     {
                       "animations" : [
@@ -335,7 +335,7 @@ local_slide( {
                           "pointY" : 0.5
                         }
                       },
-                      "texture" : "C28C43278E6F1D888A3131E5A06AB3C0"
+                      "texture" : "49C44F62D4658FF2CAF1631080B0CE61"
                     }
                   ]
                 }
@@ -356,48 +356,48 @@ local_slide( {
         ],
         "accessibility" : [
           {
+            "text" : "NgRx Container \/ Presentation",
+            "targetRectangle" : {
+              "y" : 112,
+              "x" : 305.4349999999999,
+              "width" : 1310.13,
+              "height" : 108.3893737792969
+            }
+          },
+          {
             "text" : "Architecture pattern to help make things reusable and testable.  ",
             "targetRectangle" : {
-              "y" : 375,
+              "y" : 432,
               "x" : 117,
-              "width" : 1364.3140000000003,
-              "height" : 54.665679931640625
+              "width" : 1364.314,
+              "height" : 54.66567993164062
             }
           },
           {
             "text" : "Container → Input\/Output ← Presentation",
             "targetRectangle" : {
-              "y" : 431,
+              "y" : 488,
               "x" : 117,
-              "width" : 645.31200000000024,
-              "height" : 42.013233332487289
+              "width" : 645.312,
+              "height" : 42.01323333248729
             }
           },
           {
             "text" : "Container = how things work. Loading and Dispatching.",
             "targetRectangle" : {
-              "y" : 473.94145598873729,
-              "x" : 160.00000071525574,
-              "width" : 1179.6700000000003,
-              "height" : 113.66567993164062
+              "y" : 530.9414559887373,
+              "x" : 160.0000007152557,
+              "width" : 1179.67,
+              "height" : 113.6656799316406
             }
           },
           {
             "text" : "Presentation = presenting the data, how things work, but doesn’t deal with observables.",
             "targetRectangle" : {
-              "y" : 588.94145598873729,
-              "x" : 160.00000071525574,
-              "width" : 1593.0260000000001,
-              "height" : 169.66567993164062
-            }
-          },
-          {
-            "text" : "NgRx Container \/ Presentation",
-            "targetRectangle" : {
-              "y" : 112,
-              "x" : 305.43499999999995,
-              "width" : 1310.1300000000001,
-              "height" : 108.38937377929688
+              "y" : 645.9414559887373,
+              "x" : 160.0000007152557,
+              "width" : 1593.026,
+              "height" : 169.6656799316406
             }
           }
         ],
@@ -632,7 +632,7 @@ local_slide( {
                           "pointY" : 0.5
                         }
                       },
-                      "texture" : "1B9E24559ABB3A70D28945BFEE963213"
+                      "texture" : "E7CED0F24219233B77C817049E42930C"
                     }
                   ]
                 }
@@ -758,13 +758,13 @@ local_slide( {
                       "texturedRectangle" : {
                         "singleTextureOpacity" : 1,
                         "textXHeight" : 0.495,
-                        "textBaseline" : 0.73255108772440158,
+                        "textBaseline" : 0.7325510877244016,
                         "isBackgroundTexture" : true,
                         "isVerticalText" : false,
                         "textColor" : [
-                          0.99990874528884888,
+                          0.9999087452888489,
                           1,
-                          0.99987798929214478,
+                          0.9998779892921448,
                           1
                         ],
                         "textureType" : 6
@@ -898,7 +898,7 @@ local_slide( {
                     "scale" : 1,
                     "position" : {
                       "pointX" : 930.5,
-                      "pointY" : 552
+                      "pointY" : 494
                     },
                     "width" : 1635,
                     "sublayerTransform" : [
@@ -927,7 +927,7 @@ local_slide( {
                     },
                     "opacity" : 1,
                     "edgeAntialiasingMask" : 251658240,
-                    "height" : 490,
+                    "height" : 374,
                     "hidden" : false,
                     "anchorPoint" : {
                       "pointX" : 0.5,
@@ -944,14 +944,14 @@ local_slide( {
                       ],
                       "texturedRectangle" : {
                         "singleTextureOpacity" : 1,
-                        "textXHeight" : 0.048534693877551022,
-                        "textBaseline" : 0.98086807125411946,
+                        "textXHeight" : 0.06358823529411765,
+                        "textBaseline" : 0.9776079008409586,
                         "isBackgroundTexture" : true,
                         "isVerticalText" : false,
                         "textColor" : [
-                          0.92130953073501587,
-                          0.92144668102264404,
-                          0.92127889394760132,
+                          0.9213095307350159,
+                          0.921446681022644,
+                          0.9212788939476013,
                           1
                         ],
                         "textureType" : 6
@@ -970,7 +970,7 @@ local_slide( {
                         "scale" : 1,
                         "position" : {
                           "pointX" : 815.5,
-                          "pointY" : 321
+                          "pointY" : 320
                         },
                         "width" : 1635,
                         "sublayerTransform" : [
@@ -999,14 +999,14 @@ local_slide( {
                         },
                         "opacity" : 1,
                         "edgeAntialiasingMask" : 0,
-                        "height" : 490,
+                        "height" : 374,
                         "hidden" : false,
                         "anchorPoint" : {
                           "pointX" : 0.5,
                           "pointY" : 0.5
                         }
                       },
-                      "texture" : "AF11095C38EA68A790430CDEC02949BB"
+                      "texture" : "118D77CEF7B4671A8AE40ABCA3D79DD8"
                     }
                   ]
                 }

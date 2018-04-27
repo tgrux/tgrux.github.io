@@ -1,6 +1,6 @@
 {
   "assets" : {
-    "4AB26585B2A2894411CCB57F30C70BF9" : {
+    "2291A39A26CD01DA11DA30A93438700A" : {
       "type" : "texture",
       "index" : 4,
       "assetRequest" : {
@@ -56,20 +56,6 @@
       "width" : 1920,
       "height" : 1080
     },
-    "DB87F63C20A0EA3C7A7324F8EEA9F506" : {
-      "type" : "texture",
-      "index" : 5,
-      "assetRequest" : {
-        "type" : "slide",
-        "state" : "contents",
-        "slide" : "none"
-      },
-      "url" : {
-        "native" : "assets\/91208DEA-E1B2-465A-A13E-2D1D392DDF5E.pdf"
-      },
-      "width" : 1920,
-      "height" : 1080
-    },
     "F929E63C3FB1D3310212EAD05634F8CC" : {
       "type" : "texture",
       "index" : 2,
@@ -83,6 +69,20 @@
       },
       "width" : 806,
       "height" : 733
+    },
+    "DB87F63C20A0EA3C7A7324F8EEA9F506" : {
+      "type" : "texture",
+      "index" : 5,
+      "assetRequest" : {
+        "type" : "slide",
+        "state" : "contents",
+        "slide" : "none"
+      },
+      "url" : {
+        "native" : "assets\/91208DEA-E1B2-465A-A13E-2D1D392DDF5E.pdf"
+      },
+      "width" : 1920,
+      "height" : 1080
     }
   },
   "events" : [
@@ -179,7 +179,7 @@
                     0,
                     0,
                     1,
-                    -0.00035007912466775983,
+                    -0.0003500791246677598,
                     0,
                     0,
                     0,
@@ -266,7 +266,7 @@
                         "pointY" : 0.5
                       }
                     },
-                    "texture" : "4AB26585B2A2894411CCB57F30C70BF9"
+                    "texture" : "2291A39A26CD01DA11DA30A93438700A"
                   },
                   {
                     "animations" : [
@@ -368,15 +368,6 @@
       ],
       "accessibility" : [
         {
-          "text" : "Schematics",
-          "targetRectangle" : {
-            "y" : 112,
-            "x" : 708.90500000000009,
-            "width" : 503.18999999999994,
-            "height" : 108.38937377929688
-          }
-        },
-        {
           "text" : "Screen Shot 2018-04-26 at 8.52.24 AM.png",
           "targetRectangle" : {
             "y" : 268.2109375,
@@ -390,80 +381,89 @@
           "targetRectangle" : {
             "y" : 265,
             "x" : 116,
-            "width" : 794.64460000000008,
-            "height" : 38.063075256347645
+            "width" : 794.6446000000001,
+            "height" : 38.06307525634764
           }
         },
         {
           "text" : "update = single command to update dependencies",
           "targetRectangle" : {
             "y" : 304,
-            "x" : 146.59999998651051,
-            "width" : 550.06899999999996,
-            "height" : 115.31307632923131
+            "x" : 146.5999999865105,
+            "width" : 550.069,
+            "height" : 115.3130763292313
           }
         },
         {
           "text" : "ng update = npm, code, RxJS, Material",
           "targetRectangle" : {
-            "y" : 420.25000107288361,
-            "x" : 177.76842237271762,
-            "width" : 502.90079999999989,
-            "height" : 36.532112608218426
+            "y" : 420.2500010728836,
+            "x" : 177.7684223727176,
+            "width" : 502.9007999999999,
+            "height" : 36.53211260821843
           }
         },
         {
           "text" : "add = instant code and library scaffolding",
           "targetRectangle" : {
-            "y" : 457.57110293891458,
-            "x" : 146.59999998651051,
-            "width" : 620.19230000000005,
-            "height" : 76.313076329231194
+            "y" : 457.5711029389146,
+            "x" : 146.5999999865105,
+            "width" : 620.1923,
+            "height" : 76.31307632923119
           }
         },
         {
           "text" : "Material, Elements, PWA, bootstrap, clarity, nativescript",
           "targetRectangle" : {
-            "y" : 534.82110401179818,
-            "x" : 182.59999998651051,
-            "width" : 653.84889999999973,
-            "height" : 115.31307632923119
+            "y" : 534.8211040117982,
+            "x" : 182.5999999865105,
+            "width" : 653.8488999999997,
+            "height" : 115.3130763292312
           }
         },
         {
           "text" : "ng add @angular\/pwa = does all the setup.",
           "targetRectangle" : {
-            "y" : 651.07110508468179,
-            "x" : 177.76842237271762,
-            "width" : 551.86079999999993,
-            "height" : 36.532112608218426
+            "y" : 651.0711050846818,
+            "x" : 177.7684223727176,
+            "width" : 551.8607999999999,
+            "height" : 36.53211260821843
           }
         },
         {
           "text" : "generate = Per-library 'generate' schematics",
           "targetRectangle" : {
-            "y" : 688.39220695071276,
-            "x" : 146.59999998651051,
-            "width" : 661.53629999999987,
-            "height" : 76.313076329231308
+            "y" : 688.3922069507128,
+            "x" : 146.5999999865105,
+            "width" : 661.5362999999999,
+            "height" : 76.31307632923131
           }
         },
         {
           "text" : "ng generate @angular\/material:material-nav --name=main-nav ",
           "targetRectangle" : {
-            "y" : 765.64220802359637,
-            "x" : 177.76842237271762,
-            "width" : 602.91519999999991,
-            "height" : 73.853214474249398
+            "y" : 765.6422080235964,
+            "x" : 177.7684223727176,
+            "width" : 602.9151999999999,
+            "height" : 73.8532144742494
           }
         },
         {
           "text" : "Vendors and Us can publish our own schematics. Goal is to make universal libraries easier to build: project scaffolding, test, build system. N",
           "targetRectangle" : {
-            "y" : 840.28441175565831,
+            "y" : 840.2844117556583,
             "x" : 116,
-            "width" : 744.38579999999979,
-            "height" : 154.31307632923131
+            "width" : 744.3857999999998,
+            "height" : 154.3130763292313
+          }
+        },
+        {
+          "text" : "Schematics",
+          "targetRectangle" : {
+            "y" : 112,
+            "x" : 708.9050000000001,
+            "width" : 503.1899999999999,
+            "height" : 108.3893737792969
           }
         }
       ],
@@ -823,14 +823,14 @@
                     ],
                     "texturedRectangle" : {
                       "singleTextureOpacity" : 1,
-                      "textXHeight" : 0.59653846153846157,
-                      "textBaseline" : 0.88281797751402247,
+                      "textXHeight" : 0.5965384615384616,
+                      "textBaseline" : 0.8828179775140225,
                       "isBackgroundTexture" : true,
                       "isVerticalText" : false,
                       "textColor" : [
-                        0.99990874528884888,
+                        0.9999087452888489,
                         1,
-                        0.99987798929214478,
+                        0.9998779892921448,
                         1
                       ],
                       "textureType" : 6
@@ -1010,14 +1010,14 @@
                     ],
                     "texturedRectangle" : {
                       "singleTextureOpacity" : 1,
-                      "textXHeight" : 0.022781855388813093,
-                      "textBaseline" : 0.98033907483882976,
+                      "textXHeight" : 0.02278185538881309,
+                      "textBaseline" : 0.9803390748388298,
                       "isBackgroundTexture" : true,
                       "isVerticalText" : false,
                       "textColor" : [
-                        0.92130953073501587,
-                        0.92144668102264404,
-                        0.92127889394760132,
+                        0.9213095307350159,
+                        0.921446681022644,
+                        0.9212788939476013,
                         1
                       ],
                       "textureType" : 6

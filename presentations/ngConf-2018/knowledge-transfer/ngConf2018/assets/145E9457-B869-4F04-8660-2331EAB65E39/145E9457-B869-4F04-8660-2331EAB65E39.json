@@ -1,5 +1,47 @@
 {
   "assets" : {
+    "7846A999A84078DEDEFB80CA163400DF" : {
+      "type" : "texture",
+      "index" : 6,
+      "assetRequest" : {
+        "type" : "slide",
+        "state" : "contents",
+        "slide" : "none"
+      },
+      "url" : {
+        "native" : "assets\/145E9457-B869-4F04-8660-2331EAB65E39.pdf"
+      },
+      "width" : 1920,
+      "height" : 1080
+    },
+    "5BA6DF7ACEF516F7DAB78587CF30CE20" : {
+      "type" : "texture",
+      "index" : 5,
+      "assetRequest" : {
+        "type" : "slide",
+        "state" : "contents",
+        "slide" : "none"
+      },
+      "url" : {
+        "native" : "assets\/145E9457-B869-4F04-8660-2331EAB65E39.pdf"
+      },
+      "width" : 1920,
+      "height" : 1080
+    },
+    "0CF90DA910DE19997B629AB097B0B942" : {
+      "type" : "texture",
+      "index" : 4,
+      "assetRequest" : {
+        "type" : "slide",
+        "state" : "contents",
+        "slide" : "none"
+      },
+      "url" : {
+        "native" : "assets\/145E9457-B869-4F04-8660-2331EAB65E39.pdf"
+      },
+      "width" : 844,
+      "height" : 365
+    },
     "2AAAFB89EFB2A42C99C4169290128A7C" : {
       "type" : "texture",
       "index" : 2,
@@ -13,34 +55,6 @@
       },
       "width" : 752,
       "height" : 606
-    },
-    "A75EAD90CD1BD7576F68032A8F8E0E56" : {
-      "type" : "texture",
-      "index" : 4,
-      "assetRequest" : {
-        "type" : "slide",
-        "state" : "contents",
-        "slide" : "none"
-      },
-      "url" : {
-        "native" : "assets\/145E9457-B869-4F04-8660-2331EAB65E39.pdf"
-      },
-      "width" : 1920,
-      "height" : 1080
-    },
-    "3F54DB04D3D505143DCE22C078E46E67" : {
-      "type" : "texture",
-      "index" : 1,
-      "assetRequest" : {
-        "type" : "slide",
-        "state" : "contents",
-        "slide" : "none"
-      },
-      "url" : {
-        "native" : "assets\/145E9457-B869-4F04-8660-2331EAB65E39.pdf"
-      },
-      "width" : 752,
-      "height" : 443
     },
     "E7CED0F24219233B77C817049E42930C" : {
       "type" : "texture",
@@ -56,7 +70,21 @@
       "width" : 1920,
       "height" : 1080
     },
-    "E6C51053D3134AE532750836639A7EA1" : {
+    "A75EAD90CD1BD7576F68032A8F8E0E56" : {
+      "type" : "texture",
+      "index" : 1,
+      "assetRequest" : {
+        "type" : "slide",
+        "state" : "contents",
+        "slide" : "none"
+      },
+      "url" : {
+        "native" : "assets\/145E9457-B869-4F04-8660-2331EAB65E39.pdf"
+      },
+      "width" : 752,
+      "height" : 443
+    },
+    "0B3A3992B5931E4613F358EFE15B878F" : {
       "type" : "texture",
       "index" : 3,
       "assetRequest" : {
@@ -67,22 +95,8 @@
       "url" : {
         "native" : "assets\/145E9457-B869-4F04-8660-2331EAB65E39.pdf"
       },
-      "width" : 991,
-      "height" : 1020
-    },
-    "C48DFF5F27171B072A119B684713CE2A" : {
-      "type" : "texture",
-      "index" : 5,
-      "assetRequest" : {
-        "type" : "slide",
-        "state" : "contents",
-        "slide" : "none"
-      },
-      "url" : {
-        "native" : "assets\/145E9457-B869-4F04-8660-2331EAB65E39.pdf"
-      },
-      "width" : 1920,
-      "height" : 1080
+      "width" : 622,
+      "height" : 620
     }
   },
   "events" : [
@@ -179,7 +193,7 @@
                     0,
                     0,
                     1,
-                    -0.00035007912466775983,
+                    -0.0003500791246677598,
                     0,
                     0,
                     0,
@@ -266,7 +280,7 @@
                         "pointY" : 0.5
                       }
                     },
-                    "texture" : "A75EAD90CD1BD7576F68032A8F8E0E56"
+                    "texture" : "5BA6DF7ACEF516F7DAB78587CF30CE20"
                   },
                   {
                     "animations" : [
@@ -347,7 +361,7 @@
                         "pointY" : 0.5
                       }
                     },
-                    "texture" : "C48DFF5F27171B072A119B684713CE2A"
+                    "texture" : "7846A999A84078DEDEFB80CA163400DF"
                   }
                 ]
               }
@@ -368,15 +382,6 @@
       ],
       "accessibility" : [
         {
-          "text" : "2018-04-19 11.23.45.jpg",
-          "targetRectangle" : {
-            "y" : 47,
-            "x" : 112,
-            "width" : 949,
-            "height" : 958
-          }
-        },
-        {
           "text" : "2018-04-18 18.42.50_preview.jpg",
           "targetRectangle" : {
             "y" : 623,
@@ -386,12 +391,75 @@
           }
         },
         {
+          "text" : "2018-04-19 11.23.45.jpg",
+          "targetRectangle" : {
+            "y" : 447.4024994373322,
+            "x" : 108.3506263196469,
+            "width" : 579.28125,
+            "height" : 556.65625
+          }
+        },
+        {
           "text" : "2018-04-18 21.41.55.jpg",
           "targetRectangle" : {
             "y" : 47,
             "x" : 1096,
             "width" : 710,
             "height" : 544
+          }
+        },
+        {
+          "text" : "Hallway Conversations",
+          "targetRectangle" : {
+            "y" : 50.90610337257385,
+            "x" : 109.7313976092339,
+            "width" : 548.184,
+            "height" : 62.49163818359375
+          }
+        },
+        {
+          "text" : "John Papa - Breaking apart large apps",
+          "targetRectangle" : {
+            "y" : 114.9061033725739,
+            "x" : 145.253138522625,
+            "width" : 499.0439999999999,
+            "height" : 53.18780517578125
+          }
+        },
+        {
+          "text" : "1st thing Google tells new hires - everything you do should be scaleable.",
+          "targetRectangle" : {
+            "y" : 168.9061033725739,
+            "x" : 145.253138522625,
+            "width" : 806.1479999999999,
+            "height" : 87.18780517578125
+          }
+        },
+        {
+          "text" : "FinTech Team?",
+          "targetRectangle" : {
+            "y" : 256.9061033725739,
+            "x" : 145.253138522625,
+            "width" : 192.472,
+            "height" : 53.18780517578125
+          }
+        },
+        {
+          "text" : "Enforcing quality \/ unit tests = sonarqube",
+          "targetRectangle" : {
+            "y" : 310.9061033725739,
+            "x" : 188.253138522625,
+            "width" : 532.4199999999998,
+            "height" : 53.18780517578125
+          }
+        },
+        {
+          "text" : "Features over upgrades \/ dev ops = same issues",
+          "targetRectangle" : {
+            "y" : 364.9061033725739,
+            "x" : 188.253138522625,
+            "width" : 627.9559999999999,
+            "height" : 53.18780517578125
           }
         }
       ],
@@ -807,7 +875,7 @@
                         "pointY" : 0.5
                       }
                     },
-                    "texture" : "3F54DB04D3D505143DCE22C078E46E67"
+                    "texture" : "A75EAD90CD1BD7576F68032A8F8E0E56"
                   }
                 ]
               }
@@ -1066,10 +1134,10 @@
                   "rotation" : 0,
                   "scale" : 1,
                   "position" : {
-                    "pointX" : 607.5,
-                    "pointY" : 557
+                    "pointX" : 419.3506263196469,
+                    "pointY" : 757.4024994373322
                   },
-                  "width" : 991,
+                  "width" : 622,
                   "sublayerTransform" : [
                     1,
                     0,
@@ -1096,7 +1164,7 @@
                   },
                   "opacity" : 1,
                   "edgeAntialiasingMask" : 251658240,
-                  "height" : 1020,
+                  "height" : 620,
                   "hidden" : false,
                   "anchorPoint" : {
                     "pointX" : 0.5,
@@ -1132,10 +1200,10 @@
                       "rotation" : 0,
                       "scale" : 1,
                       "position" : {
-                        "pointX" : 474.5,
-                        "pointY" : 479
+                        "pointX" : 289.6493736803531,
+                        "pointY" : 278.5975005626678
                       },
-                      "width" : 991,
+                      "width" : 622,
                       "sublayerTransform" : [
                         1,
                         0,
@@ -1162,14 +1230,201 @@
                       },
                       "opacity" : 1,
                       "edgeAntialiasingMask" : 0,
-                      "height" : 1020,
+                      "height" : 620,
                       "hidden" : false,
                       "anchorPoint" : {
                         "pointX" : 0.5,
                         "pointY" : 0.5
                       }
                     },
-                    "texture" : "E6C51053D3134AE532750836639A7EA1"
+                    "texture" : "0B3A3992B5931E4613F358EFE15B878F"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "animations" : [
+
+            ],
+            "initialState" : {
+              "affineTransform" : [
+                1,
+                0,
+                0,
+                1,
+                0,
+                0
+              ],
+              "masksToBounds" : false,
+              "rotation" : 0,
+              "scale" : 1,
+              "position" : {
+                "pointX" : 960,
+                "pointY" : 540
+              },
+              "width" : 1920,
+              "sublayerTransform" : [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              "contentsRect" : {
+                "y" : 0,
+                "x" : 0,
+                "width" : 1,
+                "height" : 1
+              },
+              "opacity" : 1,
+              "edgeAntialiasingMask" : 251658240,
+              "height" : 1080,
+              "hidden" : false,
+              "anchorPoint" : {
+                "pointX" : 0.5,
+                "pointY" : 0.5
+              }
+            },
+            "layers" : [
+              {
+                "animations" : [
+
+                ],
+                "initialState" : {
+                  "affineTransform" : [
+                    1,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                  ],
+                  "masksToBounds" : false,
+                  "rotation" : 0,
+                  "scale" : 1,
+                  "position" : {
+                    "pointX" : 527.7313976092339,
+                    "pointY" : 229.4061033725739
+                  },
+                  "width" : 844,
+                  "sublayerTransform" : [
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1
+                  ],
+                  "contentsRect" : {
+                    "y" : 0,
+                    "x" : 0,
+                    "width" : 1,
+                    "height" : 1
+                  },
+                  "opacity" : 1,
+                  "edgeAntialiasingMask" : 251658240,
+                  "height" : 365,
+                  "hidden" : false,
+                  "anchorPoint" : {
+                    "pointX" : 0.5,
+                    "pointY" : 0.5
+                  }
+                },
+                "layers" : [
+                  {
+                    "animations" : [
+
+                    ],
+                    "layers" : [
+
+                    ],
+                    "texturedRectangle" : {
+                      "singleTextureOpacity" : 1,
+                      "textXHeight" : 0.07365479452054795,
+                      "textBaseline" : 0.9644329913674968,
+                      "isBackgroundTexture" : true,
+                      "isVerticalText" : false,
+                      "textColor" : [
+                        0.9213095307350159,
+                        0.921446681022644,
+                        0.9212788939476013,
+                        1
+                      ],
+                      "textureType" : 6
+                    },
+                    "initialState" : {
+                      "affineTransform" : [
+                        1,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0
+                      ],
+                      "masksToBounds" : false,
+                      "rotation" : 0,
+                      "scale" : 1,
+                      "position" : {
+                        "pointX" : 421.2686023907661,
+                        "pointY" : 195.5938966274261
+                      },
+                      "width" : 844,
+                      "sublayerTransform" : [
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1
+                      ],
+                      "contentsRect" : {
+                        "y" : 0,
+                        "x" : 0,
+                        "width" : 1,
+                        "height" : 1
+                      },
+                      "opacity" : 1,
+                      "edgeAntialiasingMask" : 0,
+                      "height" : 365,
+                      "hidden" : false,
+                      "anchorPoint" : {
+                        "pointX" : 0.5,
+                        "pointY" : 0.5
+                      }
+                    },
+                    "texture" : "0CF90DA910DE19997B629AB097B0B942"
                   }
                 ]
               }

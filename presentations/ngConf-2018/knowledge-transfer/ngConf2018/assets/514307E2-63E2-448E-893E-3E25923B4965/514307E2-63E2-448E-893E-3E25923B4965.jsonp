@@ -209,7 +209,7 @@ local_slide( {
                       0,
                       0,
                       1,
-                      -0.00035007912466775983,
+                      -0.0003500791246677598,
                       0,
                       0,
                       0,
@@ -398,9 +398,9 @@ local_slide( {
             "url" : "https:\/\/github.com\/angular\/angular\/blob\/master\/packages\/core\/src\/render3\/STATUS.md",
             "targetRectangle" : {
               "y" : 426,
-              "x" : 738.94969998651027,
-              "width" : 91.538199999999961,
-              "height" : 76.313076329231308
+              "x" : 738.9496999865103,
+              "width" : 91.53819999999996,
+              "height" : 76.31307632923131
             }
           }
         ],
@@ -418,8 +418,8 @@ local_slide( {
             "text" : "Biggest benefit of Ivy, the rendering pipeline removes actually reads the code vs. static analysis. This removes imports that are never used, even if they are referenced in the code.",
             "targetRectangle" : {
               "y" : 270,
-              "x" : 146.59999998651051,
-              "width" : 682.85429999999997,
+              "x" : 146.5999999865105,
+              "width" : 682.8543,
               "height" : 155.0630752563477
             }
           },
@@ -427,63 +427,72 @@ local_slide( {
             "text" : "Backwards Compatible - 6 months out (status)",
             "targetRectangle" : {
               "y" : 426,
-              "x" : 146.59999998651051,
-              "width" : 692.86729999999966,
-              "height" : 76.313076329231308
+              "x" : 146.5999999865105,
+              "width" : 692.8672999999997,
+              "height" : 76.31307632923131
             }
           },
           {
             "text" : "Locality - Allows AOT dependencies - & no meta data.  Local meaning only information which is directly tied to the annotation of the component",
             "targetRectangle" : {
-              "y" : 503.25000107288361,
-              "x" : 146.59999998651051,
+              "y" : 503.2500010728836,
+              "x" : 146.5999999865105,
               "width" : 730.0768999999998,
-              "height" : 154.31307632923131
+              "height" : 154.3130763292313
             }
           },
           {
             "text" : "Stack trace is much more accurate, and identifies the issue.",
             "targetRectangle" : {
-              "y" : 658.50000214576721,
-              "x" : 146.59999998651051,
-              "width" : 747.38969999999972,
-              "height" : 115.31307632923131
+              "y" : 658.5000021457672,
+              "x" : 146.5999999865105,
+              "width" : 747.3896999999997,
+              "height" : 115.3130763292313
             }
           },
           {
             "text" : "Build size is insanely small! ",
             "targetRectangle" : {
-              "y" : 774.75000321865082,
-              "x" : 146.59999998651051,
-              "width" : 414.15059999999983,
-              "height" : 76.313076329231308
+              "y" : 774.7500032186508,
+              "x" : 146.5999999865105,
+              "width" : 414.1505999999998,
+              "height" : 76.31307632923131
             }
           },
           {
             "text" : "Today Compressed → 36K",
             "targetRectangle" : {
-              "y" : 852.00000429153442,
-              "x" : 182.59999998651051,
-              "width" : 396.74090000000001,
-              "height" : 48.395665264129661
+              "y" : 852.0000042915344,
+              "x" : 182.5999999865105,
+              "width" : 396.7409,
+              "height" : 48.39566526412966
             }
           },
           {
             "text" : "Minified  → 7.3Kb",
             "targetRectangle" : {
-              "y" : 866.95649587600781,
-              "x" : 182.59999998651051,
-              "width" : 264.47239999999994,
-              "height" : 76.445666050910972
+              "y" : 866.9564958760078,
+              "x" : 182.5999999865105,
+              "width" : 264.4723999999999,
+              "height" : 76.44566605091097
             }
           },
           {
             "text" : "Ivy Compressed → 2.7Kb",
             "targetRectangle" : {
-              "y" : 913.78255480198118,
-              "x" : 182.59999998651051,
+              "y" : 913.7825548019812,
+              "x" : 182.5999999865105,
               "width" : 378.7820999999999,
-              "height" : 76.445666050910972
+              "height" : 76.44566605091097
+            }
+          },
+          {
+            "text" : "Ivy",
+            "targetRectangle" : {
+              "y" : 112,
+              "x" : 900.47,
+              "width" : 120.0599999999999,
+              "height" : 108.3893737792969
             }
           },
           {
@@ -493,15 +502,6 @@ local_slide( {
               "x" : 1049.515625,
               "width" : 806.0703125,
               "height" : 466.25634765625
-            }
-          },
-          {
-            "text" : "Ivy",
-            "targetRectangle" : {
-              "y" : 112,
-              "x" : 900.47000000000003,
-              "width" : 120.05999999999995,
-              "height" : 108.38937377929688
             }
           },
           {
@@ -870,14 +870,14 @@ local_slide( {
                       ],
                       "texturedRectangle" : {
                         "singleTextureOpacity" : 1,
-                        "textXHeight" : 0.50576086956521737,
-                        "textBaseline" : 0.73760654615319299,
+                        "textXHeight" : 0.5057608695652174,
+                        "textBaseline" : 0.737606546153193,
                         "isBackgroundTexture" : true,
                         "isVerticalText" : false,
                         "textColor" : [
-                          0.99990874528884888,
+                          0.9999087452888489,
                           1,
-                          0.99987798929214478,
+                          0.9998779892921448,
                           1
                         ],
                         "textureType" : 6
@@ -1057,14 +1057,14 @@ local_slide( {
                       ],
                       "texturedRectangle" : {
                         "singleTextureOpacity" : 1,
-                        "textXHeight" : 0.023033241379310343,
-                        "textBaseline" : 0.98099210293084793,
+                        "textXHeight" : 0.02303324137931034,
+                        "textBaseline" : 0.9809921029308479,
                         "isBackgroundTexture" : true,
                         "isVerticalText" : false,
                         "textColor" : [
-                          0.92130953073501587,
-                          0.92144668102264404,
-                          0.92127889394760132,
+                          0.9213095307350159,
+                          0.921446681022644,
+                          0.9212788939476013,
                           1
                         ],
                         "textureType" : 6

@@ -1,6 +1,6 @@
 {
   "assets" : {
-    "3CB967CEE51A14E4C28E7B992587A0B6" : {
+    "3C48462B1294485D608C732E7DB1BE0C" : {
       "type" : "texture",
       "index" : 1,
       "assetRequest" : {
@@ -27,6 +27,20 @@
       },
       "width" : 473,
       "height" : 514
+    },
+    "49C44F62D4658FF2CAF1631080B0CE61" : {
+      "type" : "texture",
+      "index" : 4,
+      "assetRequest" : {
+        "type" : "slide",
+        "state" : "contents",
+        "slide" : "none"
+      },
+      "url" : {
+        "native" : "assets\/B7DA3D8F-AFB5-4841-97D8-87E46F9DD8A3.pdf"
+      },
+      "width" : 1920,
+      "height" : 1080
     },
     "230CE02B71E8B56ECF06070F255CA1E4" : {
       "type" : "texture",
@@ -59,20 +73,6 @@
     "1B9E24559ABB3A70D28945BFEE963213" : {
       "type" : "texture",
       "index" : 5,
-      "assetRequest" : {
-        "type" : "slide",
-        "state" : "contents",
-        "slide" : "none"
-      },
-      "url" : {
-        "native" : "assets\/B7DA3D8F-AFB5-4841-97D8-87E46F9DD8A3.pdf"
-      },
-      "width" : 1920,
-      "height" : 1080
-    },
-    "C28C43278E6F1D888A3131E5A06AB3C0" : {
-      "type" : "texture",
-      "index" : 4,
       "assetRequest" : {
         "type" : "slide",
         "state" : "contents",
@@ -179,7 +179,7 @@
                     0,
                     0,
                     1,
-                    -0.00035007912466775983,
+                    -0.0003500791246677598,
                     0,
                     0,
                     0,
@@ -266,7 +266,7 @@
                         "pointY" : 0.5
                       }
                     },
-                    "texture" : "C28C43278E6F1D888A3131E5A06AB3C0"
+                    "texture" : "49C44F62D4658FF2CAF1631080B0CE61"
                   },
                   {
                     "animations" : [
@@ -373,7 +373,7 @@
             "y" : 112,
             "x" : 708.005,
             "width" : 504.9899999999999,
-            "height" : 108.38937377929688
+            "height" : 108.3893737792969
           }
         },
         {
@@ -381,8 +381,8 @@
           "targetRectangle" : {
             "y" : 313,
             "x" : 149.2500005364418,
-            "width" : 797.01900000000001,
-            "height" : 40.999259948730469
+            "width" : 797.019,
+            "height" : 40.99925994873047
           }
         },
         {
@@ -390,8 +390,8 @@
           "targetRectangle" : {
             "y" : 355,
             "x" : 149.2500005364418,
-            "width" : 1031.1015000000002,
-            "height" : 169.24925994873047
+            "width" : 1031.1015,
+            "height" : 169.2492599487305
           }
         },
         {
@@ -399,44 +399,44 @@
           "targetRectangle" : {
             "y" : 525.25,
             "x" : 117,
-            "width" : 182.68799999999999,
-            "height" : 31.134216983409715
+            "width" : 182.688,
+            "height" : 31.13421698340971
           }
         },
         {
           "text" : "  id: string;",
           "targetRectangle" : {
-            "y" : 557.08038397559721,
+            "y" : 557.0803839755972,
             "x" : 117,
-            "width" : 120.45599999999996,
-            "height" : 31.134216983409715
+            "width" : 120.456,
+            "height" : 31.13421698340971
           }
         },
         {
           "text" : "  title: string;",
           "targetRectangle" : {
-            "y" : 588.91076795119443,
+            "y" : 588.9107679511944,
             "x" : 117,
-            "width" : 143.54399999999998,
-            "height" : 31.134216983409715
+            "width" : 143.544,
+            "height" : 31.13421698340971
           }
         },
         {
           "text" : "}",
           "targetRectangle" : {
-            "y" : 620.74115192679164,
+            "y" : 620.7411519267916,
             "x" : 117,
-            "width" : 7.9920000000000044,
-            "height" : 31.134216983409715
+            "width" : 7.992000000000004,
+            "height" : 31.13421698340971
           }
         },
         {
           "text" : "import { createEntityAdapter } from ‘@ngrx\/entity';",
           "targetRectangle" : {
-            "y" : 684.40191987798607,
+            "y" : 684.4019198779861,
             "x" : 117,
-            "width" : 573.43200000000024,
-            "height" : 31.134216983409715
+            "width" : 573.4320000000002,
+            "height" : 31.13421698340971
           }
         },
         {
@@ -444,35 +444,35 @@
           "targetRectangle" : {
             "y" : 748.0626878291805,
             "x" : 117,
-            "width" : 585.91200000000003,
-            "height" : 31.134216983409715
+            "width" : 585.912,
+            "height" : 31.13421698340971
           }
         },
         {
           "text" : "export const {",
           "targetRectangle" : {
-            "y" : 811.72345578037493,
+            "y" : 811.7234557803749,
             "x" : 117,
-            "width" : 158.25599999999997,
-            "height" : 31.134216983409715
+            "width" : 158.256,
+            "height" : 31.13421698340971
           }
         },
         {
           "text" : "selectIds,  selectEntities,  selectAll,  selectTotal, ",
           "targetRectangle" : {
-            "y" : 843.55383975597215,
+            "y" : 843.5538397559721,
             "x" : 117,
-            "width" : 552.48000000000036,
-            "height" : 31.134216983409715
+            "width" : 552.4800000000004,
+            "height" : 31.13421698340971
           }
         },
         {
           "text" : "} = bookAdapter.getSelectors();",
           "targetRectangle" : {
-            "y" : 875.38422373156936,
+            "y" : 875.3842237315694,
             "x" : 117,
-            "width" : 353.97600000000006,
-            "height" : 31.134216983409715
+            "width" : 353.9760000000001,
+            "height" : 31.13421698340971
           }
         },
         {
@@ -841,14 +841,14 @@
                     ],
                     "texturedRectangle" : {
                       "singleTextureOpacity" : 1,
-                      "textXHeight" : 0.50032258064516133,
+                      "textXHeight" : 0.5003225806451613,
                       "textBaseline" : 0.72967529296875,
                       "isBackgroundTexture" : true,
                       "isVerticalText" : false,
                       "textColor" : [
-                        0.99990874528884888,
+                        0.9999087452888489,
                         1,
-                        0.99987798929214478,
+                        0.9998779892921448,
                         1
                       ],
                       "textureType" : 6
@@ -903,7 +903,7 @@
                         "pointY" : 0.5
                       }
                     },
-                    "texture" : "3CB967CEE51A14E4C28E7B992587A0B6"
+                    "texture" : "3C48462B1294485D608C732E7DB1BE0C"
                   }
                 ]
               }
@@ -1028,14 +1028,14 @@
                     ],
                     "texturedRectangle" : {
                       "singleTextureOpacity" : 1,
-                      "textXHeight" : 0.029977310924369751,
-                      "textBaseline" : 1.0324547142399858,
+                      "textXHeight" : 0.02997731092436975,
+                      "textBaseline" : 1.032454714239986,
                       "isBackgroundTexture" : true,
                       "isVerticalText" : false,
                       "textColor" : [
-                        0.92130953073501587,
-                        0.92144668102264404,
-                        0.92127889394760132,
+                        0.9213095307350159,
+                        0.921446681022644,
+                        0.9212788939476013,
                         1
                       ],
                       "textureType" : 6

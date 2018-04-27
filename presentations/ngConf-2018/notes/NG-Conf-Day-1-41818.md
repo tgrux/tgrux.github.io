@@ -23,7 +23,7 @@ Reviewed reasons for using Angular, and what is coming up in v6.
 ## CLI
 
 Tree shakable providers - Only download the services you need.
-Schematics - allow you to “do things” to your angular project:
+Schematics - allow you to "do things" to your angular project:
 
 - generate, new, update, add
   - *update* - single command to update dependencies, APIs, RxJS, Material
@@ -35,7 +35,7 @@ Schematics - allow you to “do things” to your angular project:
   - *generate* - updates to this schematic
     - goal is to make universal libraries easier to build: project scaffolding, test, build system
 ## Angular Elements
-- embeddable Angular javascript component - can use in other frameworks (vue, react, etc…)
+- embedable Angular javascript component - can use in other frameworks (vue, react, etc…)
 ## Material Design
 
 Focus on component dev kit to make animations better.  Also working on speed as a UX Feature (Server side rendering, and PWAs for speed).
@@ -49,11 +49,11 @@ This is a new (backwards compatible) rendering engine for Angular, still in WIP 
   - Strips out a lot of the meta data files, resulting in faster compile times
 ## TreeShaking
 
-This is the biggest benefit of Ivy, the rendering pipeline removes two steps and using “instructions” to building the DOM, rather than the template data interpreter (i.e. actually reads the code vs. static analysis).  This removes imports that are never used, even if they are referenced in the code.
+This is the biggest benefit of Ivy, the rendering pipeline removes two steps and using "instructions" to building the DOM, rather than the template data interpreter (i.e. actually reads the code vs. static analysis).  This removes imports that are never used, even if they are referenced in the code.
 
 ----------
 
-*Ex: will remove “test2” function from code base*
+*Ex: will remove "test2" function from code base*
 *function test2() {}*
 *function test(x) {*
 
@@ -75,7 +75,7 @@ This is the biggest benefit of Ivy, the rendering pipeline removes two steps and
 
 Gave recommendations on how to make your Angular App more SEO friendly.  In general, treat crawlers like a human users and make your application accessible. App SEO considerations:
 
-1. Think about URLs
+## Think about URLs
   1. Every piece of content should have a URL identifier
   2. Links - avoid onclick and imperative navigation
   3. Robots.txt
@@ -88,32 +88,33 @@ Gave recommendations on how to make your Angular App more SEO friendly.  In gene
     2. at minimum add entries for static urls and routes
     3. Deprecate URLs via redirects
     4. Remove once not significant entry-points
-2. Pick your SEO strategy
+## Pick your SEO strategy
   1. effort vs. reward
     1. Hope (bad), client-side SEO (better), server-side SEO (best), Magic (very good)
   2. Factors
     1. audience - how important is it?
     2. resources - how much can you invest?
     3. extras - summary & preview cards (vendor specific)
-3. Tools
+## Tools
   1. Google Search Console
   2. Fetch as Google - how search engines see the site.
   3. Google Analytics - user patterns
-4. Client Side
+## Client Side
   1. Googlebot - based on Chrome41
   2. polyfills - help the old crawlers
-  3. 500s - setup loging & alerts, consider adding “noindex” to the error pages.
+  3. 500s - setup loging & alerts, consider adding "noindex" to the error pages.
   4. 404s - use noindex meta tag.  (see slides)
-5. Sustaining your success
+## Sustaining your success
   1. Monitoring - review to see trends
   2. Logging - capture user agent info
   3. Alerting
     1. Google Alert Search console.  
     2. Google Analytics also has alerts
-6. SEO-ing your Angular App
+## SEO-ing your Angular App
   1. ng add @angular/seo
   2. coming with Angular6.
   3. looking for contributors
+
 # Security
 - Keeping UpToDate
   - 0 Day Exploit = unknown, Exploit = known
@@ -130,6 +131,7 @@ Gave recommendations on how to make your Angular App more SEO friendly.  In gene
     - @scope/package-name = only allows people to load who own the name
     - package-name 
 - @jawache
+
 # Change Detection
 
 Putting a function in the UI makes angular call it to see if it changed
@@ -138,9 +140,10 @@ Pipe: Primitives and Object
 
 - does not do deep change detection
 - keep pipes as primitive as possible
+
 # Animations
 
-[@fade]=”state” - can be related to a click event.  Take a look at these slides / gitHub
+[@fade]="state" - can be related to a click event.  Take a look at these slides / gitHub
 
 # Docker
 
@@ -150,7 +153,7 @@ codewithdan.me/ng-docker-in-5
 
 # Grid
 
-“do for a living what you got in-trouble for as a kid”
+"do for a living what you got in-trouble for as a kid"
 
 # Angular CDK
 
@@ -171,7 +174,7 @@ codewithdan.me/ng-docker-in-5
 
 # SwitchMap
 
-Rather then using two “maps” for multiple observables, which would result in multiple subscriptions, switchMap will replace an existing observable with a new one.
+Rather then using two "maps" for multiple observables, which would result in multiple subscriptions, switchMap will replace an existing observable with a new one.
 hotFrameworkTweets.pipe(
 
   map(frameworkTweet => getAgency(frameworkTweet) ),
@@ -208,14 +211,16 @@ Angular only creates factors for compiled modules (not imported ones).  All of t
 ## **Web Components**
 
 Set of web platform APIs for reusable custom elements.  Custom elements are something like <hello></hello>.  
-Allows you to add the component in realtime (document.createElement(‘hello-world’);
+Allows you to add the component in real time (document.createElement(‘hello-world’);
 **Injectors:**
 Platform Injector, Module Injector, Component Injector, Element Injector.
 
   - These injectors need to be done ahead of time because there is no other opportunity since a custom element is dynamically added to the DOM.
 
 **Content Projection:**  Works as expected, but it needs to be done when the page renders for the first time.  This is for <ng-content>.
-**Shadow DOM:** Slots = native version of ViewEncapsulation.  <slot name=”main”>some content</slot>
+
+**Shadow DOM:** Slots = native version of ViewEncapsulation.  <slot name="main">some content</slot>
+
 **Use Cases:** 
 
 1. Elements in apps.  dynamic components, angular.io - CMS, SSR / Hybrid Rendering
@@ -260,14 +265,14 @@ Unit Tests:
 - Most should be unit tests
 - Async tests - Promise (microtask), Timer, XHR (HttpClient)
 - Promise:
-  - Tests can complete too early.  Use “done();”
+  - Tests can complete too early.  Use "done();"
   - done(); can’t handle errors
   - use async await
-    - it(“”, async() => {});  await fixture.whenStable();
+    - it("", async() => {});  await fixture.whenStable();
 - Timer
   - Debounce: fakeAsync
   - Everything is synchronous in fakeAsync zone. 
-    - if(“fke”, fakeAsync() =>
+    - if("fke", fakeAsync() =>
 - XHR
   - Jasmine spyOn
   - Better: HttpTestingController
@@ -302,7 +307,7 @@ http://hiRes.io????
 - StackBlitz
   - Instant edit and run apps, Faster than NPM
   - bookmarklet: ng-now
-- CSS “games”
+- CSS "games"
   - Grid Critters - gridcritters.com
   - Flexbox Zombies
 - Ivy

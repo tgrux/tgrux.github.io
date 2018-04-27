@@ -16,7 +16,21 @@ local_slide( {
         "width" : 252,
         "height" : 74
       },
-      "C48DFF5F27171B072A119B684713CE2A" : {
+      "F4C9A925D28A3B3CFE360561E4019759" : {
+        "type" : "texture",
+        "index" : 2,
+        "assetRequest" : {
+          "type" : "slide",
+          "state" : "contents",
+          "slide" : "none"
+        },
+        "url" : {
+          "native" : "assets\/2DF7DE1B-3EB4-4979-95FE-7AAE5E0ADD0C.pdf"
+        },
+        "width" : 997,
+        "height" : 862
+      },
+      "CBCDE58197DAE4A931D88C6E2BD5324B" : {
         "type" : "texture",
         "index" : 3,
         "assetRequest" : {
@@ -44,21 +58,7 @@ local_slide( {
         "width" : 1920,
         "height" : 1080
       },
-      "DA91B7B7D949E791B6CC1CBF871CFF8F" : {
-        "type" : "texture",
-        "index" : 2,
-        "assetRequest" : {
-          "type" : "slide",
-          "state" : "contents",
-          "slide" : "none"
-        },
-        "url" : {
-          "native" : "assets\/2DF7DE1B-3EB4-4979-95FE-7AAE5E0ADD0C.pdf"
-        },
-        "width" : 870,
-        "height" : 746
-      },
-      "88B17B5D452DE2CE756E7C87BAFF692D" : {
+      "911B78A84F2C12A778F193B16940AA13" : {
         "type" : "texture",
         "index" : 4,
         "assetRequest" : {
@@ -167,7 +167,7 @@ local_slide( {
                       0,
                       0,
                       1,
-                      -0.00035007912466775983,
+                      -0.0003500791246677598,
                       0,
                       0,
                       0,
@@ -254,7 +254,7 @@ local_slide( {
                           "pointY" : 0.5
                         }
                       },
-                      "texture" : "C48DFF5F27171B072A119B684713CE2A"
+                      "texture" : "CBCDE58197DAE4A931D88C6E2BD5324B"
                     },
                     {
                       "animations" : [
@@ -335,7 +335,7 @@ local_slide( {
                           "pointY" : 0.5
                         }
                       },
-                      "texture" : "88B17B5D452DE2CE756E7C87BAFF692D"
+                      "texture" : "911B78A84F2C12A778F193B16940AA13"
                     }
                   ]
                 }
@@ -356,210 +356,210 @@ local_slide( {
         ],
         "accessibility" : [
           {
+            "text" : "RxJs6",
+            "targetRectangle" : {
+              "y" : 30,
+              "x" : 836.183,
+              "width" : 248.634,
+              "height" : 101.519905090332
+            }
+          },
+          {
             "text" : "Start Doing Today:",
             "targetRectangle" : {
-              "y" : 187.10546875,
-              "x" : 136.34999925209127,
-              "width" : 176.77800000000002,
-              "height" : 24.399555969238293
+              "y" : 176.10546875,
+              "x" : 139.3599986602949,
+              "width" : 204.2768,
+              "height" : 28.30615356445313
             }
           },
           {
             "text" : "pipe-able operators need to be used",
             "targetRectangle" : {
-              "y" : 212.10546875,
-              "x" : 179.34999925209127,
-              "width" : 349.35389999999984,
-              "height" : 32.499555754661571
+              "y" : 205.10546875,
+              "x" : 182.3599986602949,
+              "width" : 403.6978399999999,
+              "height" : 37.66615322113037
             }
           },
           {
             "text" : "New:",
             "targetRectangle" : {
-              "y" : 245.20546853542328,
-              "x" : 136.34999925209127,
-              "width" : 48.313800000000015,
-              "height" : 32.499555754661571
+              "y" : 243.4654684066772,
+              "x" : 139.3599986602949,
+              "width" : 55.82928000000001,
+              "height" : 37.66615322113034
             }
           },
           {
             "text" : "Simplified imports - only two Ng Devs need to worry about: rxjs && rxjs\/operators",
             "targetRectangle" : {
-              "y" : 278.30546832084656,
-              "x" : 179.34999925209127,
-              "width" : 776.91239999999937,
-              "height" : 32.499555754661571
+              "y" : 281.8254680633545,
+              "x" : 182.3599986602949,
+              "width" : 897.765440000001,
+              "height" : 37.66615322113034
             }
           },
           {
             "text" : "new operator - throwIfEmpty - if completes without throwing values, it will error out.",
             "targetRectangle" : {
-              "y" : 311.40546810626984,
-              "x" : 179.34999925209127,
-              "width" : 797.65379999999959,
-              "height" : 32.499555754661571
+              "y" : 320.1854677200317,
+              "x" : 182.3599986602949,
+              "width" : 921.7332800000011,
+              "height" : 37.66615322113034
             }
           },
           {
             "text" : "Breaking:",
             "targetRectangle" : {
-              "y" : 344.50546789169312,
-              "x" : 136.34999925209127,
-              "width" : 90.52109999999999,
-              "height" : 32.499555754661571
+              "y" : 358.545467376709,
+              "x" : 139.3599986602949,
+              "width" : 104.60216,
+              "height" : 37.66615322113034
             }
           },
           {
             "text" : "New unhandled error behavior - now no error handler will throw it as an async",
             "targetRectangle" : {
-              "y" : 377.60546767711639,
-              "x" : 179.34999925209127,
-              "width" : 740.56319999999971,
-              "height" : 32.499555754661571
+              "y" : 396.9054670333862,
+              "x" : 182.3599986602949,
+              "width" : 855.7619200000008,
+              "height" : 37.66615322113034
             }
           },
           {
             "text" : "do not depend on sync errors (try\/catch)",
             "targetRectangle" : {
-              "y" : 410.70546746253967,
-              "x" : 222.34999925209127,
-              "width" : 385.41330000000005,
-              "height" : 32.499555754661571
+              "y" : 435.2654666900635,
+              "x" : 225.3599986602949,
+              "width" : 445.3664799999999,
+              "height" : 37.66615322113034
             }
           },
           {
             "text" : "this is going to break unit tests that have observables throw errors",
             "targetRectangle" : {
-              "y" : 443.80546724796295,
-              "x" : 222.34999925209127,
-              "width" : 632.03309999999976,
-              "height" : 32.499555754661571
+              "y" : 473.6254663467407,
+              "x" : 225.3599986602949,
+              "width" : 730.3493600000003,
+              "height" : 37.66615322113034
             }
           },
           {
             "text" : "Only can import “of” directly, it is no loner available on Observable.of",
             "targetRectangle" : {
-              "y" : 476.90546703338623,
-              "x" : 179.34999925209127,
-              "width" : 656.99729999999965,
-              "height" : 32.499555754661571
+              "y" : 511.985466003418,
+              "x" : 182.3599986602949,
+              "width" : 759.1968800000004,
+              "height" : 37.66615322113034
             }
           },
           {
             "text" : "Deprecating",
             "targetRectangle" : {
-              "y" : 510.00546681880951,
-              "x" : 136.34999925209127,
-              "width" : 116.58240000000001,
-              "height" : 32.499555754661515
+              "y" : 550.3454656600952,
+              "x" : 139.3599986602949,
+              "width" : 134.71744,
+              "height" : 37.66615322113034
             }
           },
           {
             "text" : "result selectors for mergeMap - this is replaced by using a .pipe(map(…))",
             "targetRectangle" : {
-              "y" : 543.10546660423279,
-              "x" : 179.34999925209127,
-              "width" : 694.54709999999955,
-              "height" : 32.499555754661515
+              "y" : 588.7054653167725,
+              "x" : 182.3599986602949,
+              "width" : 802.5877600000005,
+              "height" : 37.66615322113034
             }
           },
           {
             "text" : "operator versions of concat, merge, zip - use them as static functions",
             "targetRectangle" : {
-              "y" : 576.20546638965607,
-              "x" : 179.34999925209127,
-              "width" : 663.45569999999975,
-              "height" : 32.499555754661515
+              "y" : 627.0654649734497,
+              "x" : 182.3599986602949,
+              "width" : 766.6599200000005,
+              "height" : 37.66615322113034
             }
           },
           {
             "text" : "Migrate and Update",
             "targetRectangle" : {
-              "y" : 609.30546617507935,
-              "x" : 136.34999925209127,
-              "width" : 190.56419999999997,
-              "height" : 32.499555754661515
+              "y" : 665.425464630127,
+              "x" : 139.3599986602949,
+              "width" : 220.20752,
+              "height" : 37.66615322113034
             }
           },
           {
             "text" : "Update to 5.5.10 > Update to 6.0.0",
             "targetRectangle" : {
-              "y" : 642.40546596050262,
-              "x" : 215.59999841555305,
-              "width" : 329.17139999999995,
-              "height" : 32.499555754661515
+              "y" : 703.7854642868042,
+              "x" : 220.3599974172012,
+              "width" : 380.3758399999998,
+              "height" : 37.66615322113034
             }
           },
           {
             "text" : "ng update rxjs",
             "targetRectangle" : {
-              "y" : 675.5054657459259,
-              "x" : 215.59999841555305,
-              "width" : 136.88909999999998,
-              "height" : 32.499555754661628
+              "y" : 742.1454639434814,
+              "x" : 220.3599974172012,
+              "width" : 158.18296,
+              "height" : 37.66615322113034
             }
           },
           {
             "text" : "Install rxjs-compat",
             "targetRectangle" : {
-              "y" : 708.60546553134918,
-              "x" : 215.59999841555305,
-              "width" : 177.54390000000001,
-              "height" : 32.499555754661628
+              "y" : 780.5054636001587,
+              "x" : 220.3599974172012,
+              "width" : 205.16184,
+              "height" : 37.66615322113034
             }
           },
           {
             "text" : "Update to remove rxjs-compat",
             "targetRectangle" : {
-              "y" : 741.70546531677246,
-              "x" : 215.59999841555305,
-              "width" : 292.57380000000001,
-              "height" : 32.499555754661628
+              "y" : 818.8654632568359,
+              "x" : 220.3599974172012,
+              "width" : 338.0852799999999,
+              "height" : 37.66615322113034
             }
           },
           {
             "text" : "yarn add rxjs-tslint",
             "targetRectangle" : {
-              "y" : 774.80546510219574,
-              "x" : 215.59999841555305,
-              "width" : 178.68240000000003,
-              "height" : 32.499555754661628
+              "y" : 857.2254629135132,
+              "x" : 220.3599974172012,
+              "width" : 206.47744,
+              "height" : 37.66615322113034
             }
           },
           {
             "text" : "run tslint -fix will fix everything to be 6.0 compliant! Wooo!",
             "targetRectangle" : {
-              "y" : 807.90546488761902,
-              "x" : 215.59999841555305,
-              "width" : 553.37309999999991,
-              "height" : 32.499555754661628
+              "y" : 895.5854625701904,
+              "x" : 220.3599974172012,
+              "width" : 639.4533600000001,
+              "height" : 37.66615322113034
             }
           },
           {
             "text" : "should be able to remove rxjs-compat at this point",
             "targetRectangle" : {
-              "y" : 841.0054646730423,
-              "x" : 215.59999841555305,
-              "width" : 482.02019999999993,
-              "height" : 32.499555754661628
+              "y" : 933.9454622268677,
+              "x" : 220.3599974172012,
+              "width" : 557.0011200000001,
+              "height" : 37.66615322113034
             }
           },
           {
             "text" : "Google is running RxJs6 in prod now!",
             "targetRectangle" : {
-              "y" : 874.10546445846558,
-              "x" : 136.34999925209127,
-              "width" : 357.79950000000002,
-              "height" : 50.949555265903541
-            }
-          },
-          {
-            "text" : "RxJs6",
-            "targetRectangle" : {
-              "y" : 30,
-              "x" : 836.18299999999999,
-              "width" : 248.63400000000001,
-              "height" : 101.51990509033203
+              "y" : 972.3054618835449,
+              "x" : 139.3599986602949,
+              "width" : 413.4571999999999,
+              "height" : 58.9861524391174
             }
           }
         ],
@@ -919,14 +919,14 @@ local_slide( {
                       ],
                       "texturedRectangle" : {
                         "singleTextureOpacity" : 1,
-                        "textXHeight" : 0.59734459459459466,
-                        "textBaseline" : 0.87792989369985219,
+                        "textXHeight" : 0.5973445945945947,
+                        "textBaseline" : 0.8779298936998522,
                         "isBackgroundTexture" : true,
                         "isVerticalText" : false,
                         "textColor" : [
-                          0.99990874528884888,
+                          0.9999087452888489,
                           1,
-                          0.99987798929214478,
+                          0.9998779892921448,
                           1
                         ],
                         "textureType" : 6
@@ -1059,10 +1059,10 @@ local_slide( {
                     "rotation" : 0,
                     "scale" : 1,
                     "position" : {
-                      "pointX" : 548,
-                      "pointY" : 544.10546875
+                      "pointX" : 611.5,
+                      "pointY" : 602.10546875
                     },
-                    "width" : 870,
+                    "width" : 997,
                     "sublayerTransform" : [
                       1,
                       0,
@@ -1089,7 +1089,7 @@ local_slide( {
                     },
                     "opacity" : 1,
                     "edgeAntialiasingMask" : 251658240,
-                    "height" : 746,
+                    "height" : 862,
                     "hidden" : false,
                     "anchorPoint" : {
                       "pointX" : 0.5,
@@ -1106,14 +1106,14 @@ local_slide( {
                       ],
                       "texturedRectangle" : {
                         "singleTextureOpacity" : 1,
-                        "textXHeight" : 0.014345710455764075,
-                        "textBaseline" : 0.9833287108200166,
+                        "textXHeight" : 0.01434645011600928,
+                        "textBaseline" : 0.9850360651967697,
                         "isBackgroundTexture" : true,
                         "isVerticalText" : false,
                         "textColor" : [
-                          0.92130953073501587,
-                          0.92144668102264404,
-                          0.92127889394760132,
+                          0.9213095307350159,
+                          0.921446681022644,
+                          0.9212788939476013,
                           1
                         ],
                         "textureType" : 6
@@ -1131,10 +1131,10 @@ local_slide( {
                         "rotation" : 0,
                         "scale" : 1,
                         "position" : {
-                          "pointX" : 435,
-                          "pointY" : 388.89453125
+                          "pointX" : 498.5,
+                          "pointY" : 436.89453125
                         },
-                        "width" : 870,
+                        "width" : 997,
                         "sublayerTransform" : [
                           1,
                           0,
@@ -1161,14 +1161,14 @@ local_slide( {
                         },
                         "opacity" : 1,
                         "edgeAntialiasingMask" : 0,
-                        "height" : 746,
+                        "height" : 862,
                         "hidden" : false,
                         "anchorPoint" : {
                           "pointX" : 0.5,
                           "pointY" : 0.5
                         }
                       },
-                      "texture" : "DA91B7B7D949E791B6CC1CBF871CFF8F"
+                      "texture" : "F4C9A925D28A3B3CFE360561E4019759"
                     }
                   ]
                 }

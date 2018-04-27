@@ -1,6 +1,6 @@
 {
   "assets" : {
-    "20D104CC24A714FA39C956CD65E15858" : {
+    "03344A6743C8709F13D94E319D0E72A0" : {
       "type" : "texture",
       "index" : 2,
       "assetRequest" : {
@@ -11,10 +11,10 @@
       "url" : {
         "native" : "assets\/CC0516C9-2080-4FF7-8C44-7E67D14E1C9C.pdf"
       },
-      "width" : 786,
-      "height" : 705
+      "width" : 782,
+      "height" : 819
     },
-    "EA8F5F1DC920DF69A5AD4117442C8A20" : {
+    "BEC2E4C30C73317165C0A89AE2E387D3" : {
       "type" : "texture",
       "index" : 5,
       "assetRequest" : {
@@ -56,6 +56,20 @@
       "width" : 850,
       "height" : 762
     },
+    "85ADAE388BC896EEDC69E5B7942E368A" : {
+      "type" : "texture",
+      "index" : 1,
+      "assetRequest" : {
+        "type" : "slide",
+        "state" : "contents",
+        "slide" : "none"
+      },
+      "url" : {
+        "native" : "assets\/CC0516C9-2080-4FF7-8C44-7E67D14E1C9C.pdf"
+      },
+      "width" : 184,
+      "height" : 60
+    },
     "15DAAB6DB1A23D1F64511FE70A354B60" : {
       "type" : "texture",
       "index" : 4,
@@ -69,20 +83,6 @@
       },
       "width" : 1920,
       "height" : 1080
-    },
-    "82DEB99B4F3A23CAF88BD0101D7C6902" : {
-      "type" : "texture",
-      "index" : 1,
-      "assetRequest" : {
-        "type" : "slide",
-        "state" : "contents",
-        "slide" : "none"
-      },
-      "url" : {
-        "native" : "assets\/CC0516C9-2080-4FF7-8C44-7E67D14E1C9C.pdf"
-      },
-      "width" : 184,
-      "height" : 60
     }
   },
   "events" : [
@@ -179,7 +179,7 @@
                     0,
                     0,
                     1,
-                    -0.00035007912466775983,
+                    -0.0003500791246677598,
                     0,
                     0,
                     0,
@@ -347,7 +347,7 @@
                         "pointY" : 0.5
                       }
                     },
-                    "texture" : "EA8F5F1DC920DF69A5AD4117442C8A20"
+                    "texture" : "BEC2E4C30C73317165C0A89AE2E387D3"
                   }
                 ]
               }
@@ -364,195 +364,169 @@
       ],
       "automaticPlay" : false,
       "hyperlinks" : [
-        {
-          "url" : "http:\/\/github.com\/alexeagle\/angular-bazel-example\/wiki",
-          "targetRectangle" : {
-            "y" : 938.9725617599488,
-            "x" : 131.83999971665833,
-            "width" : 432.39591999999982,
-            "height" : 39.315003554821033
-          }
-        }
+
       ],
       "accessibility" : [
         {
           "text" : "2018-04-19 17.44.32.jpg",
           "targetRectangle" : {
             "y" : 233.578125,
-            "x" : 1006.4531173706055,
-            "width" : 847.09556707287265,
+            "x" : 1006.453117370605,
+            "width" : 847.0955670728727,
             "height" : 758.78125
+          }
+        },
+        {
+          "text" : "I think we would need to approach this as an entire group.  It is too much work for just the UI project.",
+          "targetRectangle" : {
+            "y" : 233.9375,
+            "x" : 116,
+            "width" : 761.9930999999999,
+            "height" : 51.39375457763674
+          }
+        },
+        {
+          "text" : "Benefits of Bazel",
+          "targetRectangle" : {
+            "y" : 285.9375,
+            "x" : 116,
+            "width" : 168.7466,
+            "height" : 50.14375511407854
+          }
+        },
+        {
+          "text" : "Fast at Scale",
+          "targetRectangle" : {
+            "y" : 336.6875005364418,
+            "x" : 135.8000000975634,
+            "width" : 125.4627,
+            "height" : 50.14375511407854
+          }
+        },
+        {
+          "text" : "Full-Stack - inputs are files, structure is the application, not “how” but “what”",
+          "targetRectangle" : {
+            "y" : 387.4375010728836,
+            "x" : 135.8000000975634,
+            "width" : 743.3293999999999,
+            "height" : 50.14375511407854
+          }
+        },
+        {
+          "text" : "Builds depend on the size of the change, not the size of the app",
+          "targetRectangle" : {
+            "y" : 438.1875016093254,
+            "x" : 135.8000000975634,
+            "width" : 615.6095000000001,
+            "height" : 50.14375511407854
+          }
+        },
+        {
+          "text" : "Customizable",
+          "targetRectangle" : {
+            "y" : 488.9375021457672,
+            "x" : 135.8000000975634,
+            "width" : 132.0044,
+            "height" : 50.14375511407854
+          }
+        },
+        {
+          "text" : "Structure of the app",
+          "targetRectangle" : {
+            "y" : 539.687502682209,
+            "x" : 171.8000000975634,
+            "width" : 193.1786999999999,
+            "height" : 50.14375511407854
+          }
+        },
+        {
+          "text" : "Paths for output",
+          "targetRectangle" : {
+            "y" : 590.4375032186508,
+            "x" : 171.8000000975634,
+            "width" : 156.3946999999999,
+            "height" : 50.14375511407854
+          }
+        },
+        {
+          "text" : "Plugins for the languages and tools",
+          "targetRectangle" : {
+            "y" : 641.1875037550926,
+            "x" : 171.8000000975634,
+            "width" : 340.7536,
+            "height" : 50.14375511407854
+          }
+        },
+        {
+          "text" : "Bazel rules",
+          "targetRectangle" : {
+            "y" : 691.9375042915344,
+            "x" : 135.8000000975634,
+            "width" : 106.1093,
+            "height" : 50.14375511407854
+          }
+        },
+        {
+          "text" : "Input file → action → output fileIncremental Builds",
+          "targetRectangle" : {
+            "y" : 742.6875048279762,
+            "x" : 171.8000000975634,
+            "width" : 485.1098999999999,
+            "height" : 50.14375511407854
+          }
+        },
+        {
+          "text" : "Perform build steps\/actions",
+          "targetRectangle" : {
+            "y" : 793.437505364418,
+            "x" : 171.8000000975634,
+            "width" : 267.5409,
+            "height" : 50.14375511407854
+          }
+        },
+        {
+          "text" : "Chained together rules and abstract complexities",
+          "targetRectangle" : {
+            "y" : 844.1875059008598,
+            "x" : 171.8000000975634,
+            "width" : 475.8303000000002,
+            "height" : 50.14375511407854
+          }
+        },
+        {
+          "text" : "Roadmap: ",
+          "targetRectangle" : {
+            "y" : 894.9375064373016,
+            "x" : 135.8000000975634,
+            "width" : 105.6913,
+            "height" : 50.14375511407854
+          }
+        },
+        {
+          "text" : "Now via AngularLabs This Year: Ergonomics, Performance, Code-splitting ",
+          "targetRectangle" : {
+            "y" : 945.6875069737434,
+            "x" : 171.8000000975634,
+            "width" : 715.9503999999999,
+            "height" : 50.14375511407854
+          }
+        },
+        {
+          "text" : "Later → converge with Angular CLI",
+          "targetRectangle" : {
+            "y" : 996.4375075101852,
+            "x" : 171.8000000975634,
+            "width" : 336.8453,
+            "height" : 50.14375511407843
           }
         },
         {
           "text" : "Bazel",
           "targetRectangle" : {
             "y" : 84,
-            "x" : 871.77125000000001,
-            "width" : 177.45749999999998,
-            "height" : 81.042030334472656
-          }
-        },
-        {
-          "text" : "I think we would need to approach this as an entire group.  It is too much work for just the UI project.",
-          "targetRectangle" : {
-            "y" : 281,
-            "x" : 116,
-            "width" : 776.86135999999988,
-            "height" : 19.515003662109393
-          }
-        },
-        {
-          "text" : "Benefits of Bazel",
-          "targetRectangle" : {
-            "y" : 301,
-            "x" : 116,
-            "width" : 134.99727999999999,
-            "height" : 39.315003554821033
-          }
-        },
-        {
-          "text" : "Fast at Scale",
-          "targetRectangle" : {
-            "y" : 340.79999989271164,
-            "x" : 131.83999971665833,
-            "width" : 100.37016,
-            "height" : 39.315003554821033
-          }
-        },
-        {
-          "text" : "Full-Stack - inputs are files, structure is the application, not “how” but “what”",
-          "targetRectangle" : {
-            "y" : 380.59999978542328,
-            "x" : 131.83999971665833,
-            "width" : 594.66351999999995,
-            "height" : 39.315003554821033
-          }
-        },
-        {
-          "text" : "Builds depend on the size of the change, not the size of the app",
-          "targetRectangle" : {
-            "y" : 420.39999967813492,
-            "x" : 131.83999971665833,
-            "width" : 492.48760000000004,
-            "height" : 39.315003554821033
-          }
-        },
-        {
-          "text" : "Customizable",
-          "targetRectangle" : {
-            "y" : 460.19999957084656,
-            "x" : 131.83999971665833,
-            "width" : 105.60352,
-            "height" : 39.315003554821033
-          }
-        },
-        {
-          "text" : "Structure of the app",
-          "targetRectangle" : {
-            "y" : 499.9999994635582,
-            "x" : 167.83999971665833,
-            "width" : 154.54295999999999,
-            "height" : 39.315003554821033
-          }
-        },
-        {
-          "text" : "Paths for output",
-          "targetRectangle" : {
-            "y" : 539.79999935626984,
-            "x" : 167.83999971665833,
-            "width" : 125.11575999999997,
-            "height" : 39.315003554821033
-          }
-        },
-        {
-          "text" : "Plugins for the languages and tools",
-          "targetRectangle" : {
-            "y" : 579.59999924898148,
-            "x" : 167.83999971665833,
-            "width" : 272.60288000000008,
-            "height" : 39.315003554821033
-          }
-        },
-        {
-          "text" : "Bazel rules",
-          "targetRectangle" : {
-            "y" : 619.39999914169312,
-            "x" : 131.83999971665833,
-            "width" : 84.88743999999997,
-            "height" : 39.315003554821033
-          }
-        },
-        {
-          "text" : "Input file → action → output fileIncremental Builds",
-          "targetRectangle" : {
-            "y" : 659.19999903440475,
-            "x" : 167.83999971665833,
-            "width" : 388.08791999999983,
-            "height" : 39.901285293102319
-          }
-        },
-        {
-          "text" : "Perform build steps\/actions",
-          "targetRectangle" : {
-            "y" : 699.58628066539768,
-            "x" : 167.83999971665833,
-            "width" : 214.03272000000004,
-            "height" : 39.315003554821033
-          }
-        },
-        {
-          "text" : "Chained together rules and abstract complexities",
-          "targetRectangle" : {
-            "y" : 739.38628055810932,
-            "x" : 167.83999971665833,
-            "width" : 380.66423999999995,
-            "height" : 39.315003554820919
-          }
-        },
-        {
-          "text" : "Roadmap: ",
-          "targetRectangle" : {
-            "y" : 779.18628045082096,
-            "x" : 131.83999971665833,
-            "width" : 84.55304000000001,
-            "height" : 39.315003554821033
-          }
-        },
-        {
-          "text" : "Now via AngularLabs This Year: Ergonomics, Performance, Code-splitting ",
-          "targetRectangle" : {
-            "y" : 818.9862803435326,
-            "x" : 167.83999971665833,
-            "width" : 572.76032000000009,
-            "height" : 39.315003554821033
-          }
-        },
-        {
-          "text" : "Later → converge with Angular CLI",
-          "targetRectangle" : {
-            "y" : 858.78628023624424,
-            "x" : 167.83999971665833,
-            "width" : 269.47624000000002,
-            "height" : 39.901285293102205
-          }
-        },
-        {
-          "text" : "http:\/\/g.co\/ng\/abc http:\/\/g.co\/ng\/abc http:\/\/github.com\/alexeagle\/angular-bazel-example ",
-          "targetRectangle" : {
-            "y" : 899.17256186723716,
-            "x" : 131.83999971665833,
-            "width" : 692.87680000000023,
-            "height" : 39.315003554821033
-          }
-        },
-        {
-          "text" : "http:\/\/github.com\/alexeagle\/angular-bazel-example\/wiki",
-          "targetRectangle" : {
-            "y" : 938.9725617599488,
-            "x" : 131.83999971665833,
-            "width" : 432.39591999999982,
-            "height" : 39.315003554821033
+            "x" : 871.77125,
+            "width" : 177.4575,
+            "height" : 81.04203033447266
           }
         }
       ],
@@ -912,14 +886,14 @@
                     ],
                     "texturedRectangle" : {
                       "singleTextureOpacity" : 1,
-                      "textXHeight" : 0.58162500000000006,
-                      "textBaseline" : 2.2399141947428385,
+                      "textXHeight" : 0.5816250000000001,
+                      "textBaseline" : 2.239914194742838,
                       "isBackgroundTexture" : true,
                       "isVerticalText" : false,
                       "textColor" : [
-                        0.99990874528884888,
+                        0.9999087452888489,
                         1,
-                        0.99987798929214478,
+                        0.9998779892921448,
                         1
                       ],
                       "textureType" : 6
@@ -974,7 +948,7 @@
                         "pointY" : 0.5
                       }
                     },
-                    "texture" : "82DEB99B4F3A23CAF88BD0101D7C6902"
+                    "texture" : "85ADAE388BC896EEDC69E5B7942E368A"
                   }
                 ]
               }
@@ -1052,10 +1026,10 @@
                   "rotation" : 0,
                   "scale" : 1,
                   "position" : {
-                    "pointX" : 505,
-                    "pointY" : 612.5
+                    "pointX" : 503,
+                    "pointY" : 635.4375
                   },
-                  "width" : 786,
+                  "width" : 782,
                   "sublayerTransform" : [
                     1,
                     0,
@@ -1082,7 +1056,7 @@
                   },
                   "opacity" : 1,
                   "edgeAntialiasingMask" : 251658240,
-                  "height" : 705,
+                  "height" : 819,
                   "hidden" : false,
                   "anchorPoint" : {
                     "pointX" : 0.5,
@@ -1099,14 +1073,14 @@
                     ],
                     "texturedRectangle" : {
                       "singleTextureOpacity" : 1,
-                      "textXHeight" : 0.012261333333333332,
-                      "textBaseline" : 0.98391404952394201,
+                      "textXHeight" : 0.01319328449328449,
+                      "textBaseline" : 0.9854042272573572,
                       "isBackgroundTexture" : true,
                       "isVerticalText" : false,
                       "textColor" : [
-                        0.92130953073501587,
-                        0.92144668102264404,
-                        0.92127889394760132,
+                        0.9213095307350159,
+                        0.921446681022644,
+                        0.9212788939476013,
                         1
                       ],
                       "textureType" : 6
@@ -1124,10 +1098,10 @@
                       "rotation" : 0,
                       "scale" : 1,
                       "position" : {
-                        "pointX" : 393,
-                        "pointY" : 373.5
+                        "pointX" : 390,
+                        "pointY" : 418.5625000000001
                       },
-                      "width" : 786,
+                      "width" : 782,
                       "sublayerTransform" : [
                         1,
                         0,
@@ -1154,14 +1128,14 @@
                       },
                       "opacity" : 1,
                       "edgeAntialiasingMask" : 0,
-                      "height" : 705,
+                      "height" : 819,
                       "hidden" : false,
                       "anchorPoint" : {
                         "pointX" : 0.5,
                         "pointY" : 0.5
                       }
                     },
-                    "texture" : "20D104CC24A714FA39C956CD65E15858"
+                    "texture" : "03344A6743C8709F13D94E319D0E72A0"
                   }
                 ]
               }
@@ -1239,7 +1213,7 @@
                   "rotation" : 0,
                   "scale" : 1,
                   "position" : {
-                    "pointX" : 1431.4531173706055,
+                    "pointX" : 1431.453117370605,
                     "pointY" : 614.578125
                   },
                   "width" : 850,
@@ -1305,7 +1279,7 @@
                       "rotation" : 0,
                       "scale" : 1,
                       "position" : {
-                        "pointX" : 423.54688262939453,
+                        "pointX" : 423.5468826293945,
                         "pointY" : 379.421875
                       },
                       "width" : 850,

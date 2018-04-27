@@ -165,7 +165,7 @@
                     0,
                     0,
                     1,
-                    -0.00035007912466775983,
+                    -0.0003500791246677598,
                     0,
                     0,
                     0,
@@ -354,191 +354,191 @@
           "url" : "https:\/\/github.com\/johnpapa\/angular-ngrx-data",
           "targetRectangle" : {
             "y" : 208.81640625,
-            "x" : 138.50000035762787,
+            "x" : 138.5000003576279,
             "width" : 103.523,
-            "height" : 27.332839965820312
+            "height" : 27.33283996582031
           }
         }
       ],
       "accessibility" : [
         {
-          "text" : "NgRx",
-          "targetRectangle" : {
-            "y" : 51,
-            "x" : 843.005,
-            "width" : 234.9899999999999,
-            "height" : 108.38937377929688
-          }
-        },
-        {
           "text" : "ngrx-data: no longer have to write actions\/reducers\/selectors again…",
           "targetRectangle" : {
             "y" : 208.81640625,
-            "x" : 138.50000035762787,
-            "width" : 737.63300000000027,
-            "height" : 27.332839965820312
+            "x" : 138.5000003576279,
+            "width" : 737.6330000000004,
+            "height" : 27.33283996582031
           }
         },
         {
           "text" : "Reducers",
           "targetRectangle" : {
             "y" : 236.81640625,
-            "x" : 138.50000035762787,
-            "width" : 101.84399999999999,
-            "height" : 56.832839965820312
+            "x" : 138.5000003576279,
+            "width" : 101.844,
+            "height" : 56.83283996582031
           }
         },
         {
           "text" : "Should always be pure.  Input = Output",
           "targetRectangle" : {
             "y" : 294.31640625,
-            "x" : 181.50000035762787,
-            "width" : 414.71300000000008,
-            "height" : 34.832839965820312
+            "x" : 181.5000003576279,
+            "width" : 414.7130000000001,
+            "height" : 34.83283996582031
           }
         },
         {
           "text" : "Selectors",
           "targetRectangle" : {
             "y" : 329.81640625,
-            "x" : 138.50000035762787,
+            "x" : 138.5000003576279,
             "width" : 100.142,
-            "height" : 56.832839965820312
+            "height" : 56.83283996582031
           }
         },
         {
           "text" : "Should always be pure.",
           "targetRectangle" : {
             "y" : 387.31640625,
-            "x" : 181.50000035762787,
-            "width" : 247.57200000000006,
-            "height" : 34.832839965820312
+            "x" : 181.5000003576279,
+            "width" : 247.5720000000001,
+            "height" : 34.83283996582031
           }
         },
         {
           "text" : "Can use Snapshot testing.",
           "targetRectangle" : {
             "y" : 422.81640625,
-            "x" : 181.50000035762787,
-            "width" : 279.91000000000003,
-            "height" : 34.832839965820312
+            "x" : 181.5000003576279,
+            "width" : 279.91,
+            "height" : 34.83283996582031
           }
         },
         {
           "text" : "Actions",
           "targetRectangle" : {
             "y" : 458.31640625,
-            "x" : 138.50000035762787,
+            "x" : 138.5000003576279,
             "width" : 80.10899999999998,
-            "height" : 56.832839965820312
+            "height" : 56.83283996582031
           }
         },
         {
           "text" : "Side Effects",
           "targetRectangle" : {
             "y" : 515.81640625,
-            "x" : 138.50000035762787,
-            "width" : 127.42000000000002,
-            "height" : 56.832839965820312
+            "x" : 138.5000003576279,
+            "width" : 127.42,
+            "height" : 56.83283996582031
           }
         },
         {
           "text" : "Can use Jasmine Marbles to verify input actions",
           "targetRectangle" : {
             "y" : 573.31640625,
-            "x" : 181.50000035762787,
+            "x" : 181.5000003576279,
             "width" : 509.6110000000001,
-            "height" : 34.832839965820312
+            "height" : 34.83283996582031
           }
         },
         {
           "text" : "Components",
           "targetRectangle" : {
             "y" : 608.81640625,
-            "x" : 138.50000035762787,
-            "width" : 136.73500000000001,
-            "height" : 56.832839965820312
+            "x" : 138.5000003576279,
+            "width" : 136.735,
+            "height" : 56.83283996582031
           }
         },
         {
           "text" : "Given set of inputs = same outputs",
           "targetRectangle" : {
             "y" : 666.31640625,
-            "x" : 181.50000035762787,
-            "width" : 370.82900000000006,
-            "height" : 34.832839965820312
+            "x" : 181.5000003576279,
+            "width" : 370.8290000000001,
+            "height" : 34.83283996582031
           }
         },
         {
           "text" : "Has no global observable dependencies: (modifying global vars, global state, rendering other side effect components) ",
           "targetRectangle" : {
             "y" : 701.81640625,
-            "x" : 181.50000035762787,
-            "width" : 1255.3860000000004,
-            "height" : 34.832839965820312
+            "x" : 181.5000003576279,
+            "width" : 1255.386,
+            "height" : 34.83283996582031
           }
         },
         {
           "text" : "create component fixture",
           "targetRectangle" : {
             "y" : 737.31640625,
-            "x" : 287.00000011920929,
-            "width" : 266.73099999999999,
-            "height" : 34.832839965820312
+            "x" : 287.0000001192093,
+            "width" : 266.731,
+            "height" : 34.83283996582031
           }
         },
         {
           "text" : "beforeEach: async() + await fixture.compile({book});",
           "targetRectangle" : {
             "y" : 772.81640625,
-            "x" : 287.00000011920929,
-            "width" : 543.05300000000011,
-            "height" : 34.832839965820312
+            "x" : 287.0000001192093,
+            "width" : 543.0530000000001,
+            "height" : 34.83283996582031
           }
         },
         {
           "text" : "Should Compile: expect(fixture).toMatchSnapshot();",
           "targetRectangle" : {
             "y" : 808.31640625,
-            "x" : 287.00000011920929,
-            "width" : 548.73400000000015,
-            "height" : 34.832839965820312
+            "x" : 287.0000001192093,
+            "width" : 548.7340000000002,
+            "height" : 34.83283996582031
           }
         },
         {
           "text" : "Container Tests",
           "targetRectangle" : {
             "y" : 843.81640625,
-            "x" : 138.50000035762787,
-            "width" : 165.32400000000001,
-            "height" : 56.832839965820312
+            "x" : 138.5000003576279,
+            "width" : 165.324,
+            "height" : 56.83283996582031
           }
         },
         {
           "text" : "Store aware components",
           "targetRectangle" : {
             "y" : 901.31640625,
-            "x" : 181.50000035762787,
-            "width" : 266.31700000000001,
-            "height" : 34.832839965820312
+            "x" : 181.5000003576279,
+            "width" : 266.317,
+            "height" : 34.83283996582031
           }
         },
         {
           "text" : "Verify they work correctly",
           "targetRectangle" : {
             "y" : 936.81640625,
-            "x" : 181.50000035762787,
-            "width" : 268.06500000000005,
-            "height" : 34.832839965820312
+            "x" : 181.5000003576279,
+            "width" : 268.0650000000001,
+            "height" : 34.83283996582031
           }
         },
         {
           "text" : "Verify they dispatch the right actions",
           "targetRectangle" : {
             "y" : 972.31640625,
-            "x" : 181.50000035762787,
-            "width" : 387.32000000000016,
-            "height" : 34.832839965820312
+            "x" : 181.5000003576279,
+            "width" : 387.3200000000002,
+            "height" : 34.83283996582031
+          }
+        },
+        {
+          "text" : "NgRx",
+          "targetRectangle" : {
+            "y" : 51,
+            "x" : 843.005,
+            "width" : 234.9899999999999,
+            "height" : 108.3893737792969
           }
         }
       ],
@@ -898,14 +898,14 @@
                     ],
                     "texturedRectangle" : {
                       "singleTextureOpacity" : 1,
-                      "textXHeight" : 0.50032258064516133,
+                      "textXHeight" : 0.5003225806451613,
                       "textBaseline" : 0.72967529296875,
                       "isBackgroundTexture" : true,
                       "isVerticalText" : false,
                       "textColor" : [
-                        0.99990874528884888,
+                        0.9999087452888489,
                         1,
-                        0.99987798929214478,
+                        0.9998779892921448,
                         1
                       ],
                       "textureType" : 6
@@ -1085,14 +1085,14 @@
                     ],
                     "texturedRectangle" : {
                       "singleTextureOpacity" : 1,
-                      "textXHeight" : 0.014698393077873918,
-                      "textBaseline" : 0.98412652127674982,
+                      "textXHeight" : 0.01469839307787392,
+                      "textBaseline" : 0.9841265212767498,
                       "isBackgroundTexture" : true,
                       "isVerticalText" : false,
                       "textColor" : [
-                        0.92130953073501587,
-                        0.92144668102264404,
-                        0.92127889394760132,
+                        0.9213095307350159,
+                        0.921446681022644,
+                        0.9212788939476013,
                         1
                       ],
                       "textureType" : 6

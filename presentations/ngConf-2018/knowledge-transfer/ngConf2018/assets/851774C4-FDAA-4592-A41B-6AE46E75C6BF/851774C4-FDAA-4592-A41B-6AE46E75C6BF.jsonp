@@ -2,6 +2,20 @@ local_slide( {
   "name" : "851774C4-FDAA-4592-A41B-6AE46E75C6BF",
   "json" : {
     "assets" : {
+      "CB6D6FBB1A0E4B7FF401A8DDD6C5F760" : {
+        "type" : "texture",
+        "index" : 2,
+        "assetRequest" : {
+          "type" : "slide",
+          "state" : "contents",
+          "slide" : "none"
+        },
+        "url" : {
+          "native" : "assets\/851774C4-FDAA-4592-A41B-6AE46E75C6BF.pdf"
+        },
+        "width" : 1648,
+        "height" : 696
+      },
       "96E42335F14912DA40B21933379D4A03" : {
         "type" : "texture",
         "index" : 1,
@@ -15,20 +29,6 @@ local_slide( {
         },
         "width" : 589,
         "height" : 94
-      },
-      "0870C30A3498935D4DC19AB73B2C258F" : {
-        "type" : "texture",
-        "index" : 2,
-        "assetRequest" : {
-          "type" : "slide",
-          "state" : "contents",
-          "slide" : "none"
-        },
-        "url" : {
-          "native" : "assets\/851774C4-FDAA-4592-A41B-6AE46E75C6BF.pdf"
-        },
-        "width" : 1682,
-        "height" : 614
       },
       "E7CED0F24219233B77C817049E42930C" : {
         "type" : "texture",
@@ -44,9 +44,9 @@ local_slide( {
         "width" : 1920,
         "height" : 1080
       },
-      "4117927A2889993A10F53AA0B98F1B23" : {
+      "4FEDD71042578519A5AC35AFD670ED35" : {
         "type" : "texture",
-        "index" : 4,
+        "index" : 3,
         "assetRequest" : {
           "type" : "slide",
           "state" : "contents",
@@ -58,9 +58,9 @@ local_slide( {
         "width" : 1920,
         "height" : 1080
       },
-      "50559CF443D8831B53AA73340735CF30" : {
+      "80C5C71A81CD7910F8321097E3282FFE" : {
         "type" : "texture",
-        "index" : 3,
+        "index" : 4,
         "assetRequest" : {
           "type" : "slide",
           "state" : "contents",
@@ -167,7 +167,7 @@ local_slide( {
                       0,
                       0,
                       1,
-                      -0.00035007912466775983,
+                      -0.0003500791246677598,
                       0,
                       0,
                       0,
@@ -254,7 +254,7 @@ local_slide( {
                           "pointY" : 0.5
                         }
                       },
-                      "texture" : "50559CF443D8831B53AA73340735CF30"
+                      "texture" : "4FEDD71042578519A5AC35AFD670ED35"
                     },
                     {
                       "animations" : [
@@ -335,7 +335,7 @@ local_slide( {
                           "pointY" : 0.5
                         }
                       },
-                      "texture" : "4117927A2889993A10F53AA0B98F1B23"
+                      "texture" : "80C5C71A81CD7910F8321097E3282FFE"
                     }
                   ]
                 }
@@ -356,84 +356,84 @@ local_slide( {
         ],
         "accessibility" : [
           {
+            "text" : "Google Cloud",
+            "targetRectangle" : {
+              "y" : 60,
+              "x" : 667.28,
+              "width" : 586.4399999999998,
+              "height" : 108.3893737792969
+            }
+          },
+          {
             "text" : "LOTS of ML and Big Data tools.",
             "targetRectangle" : {
-              "y" : 318,
+              "y" : 233.91796875,
               "x" : 117,
-              "width" : 477.39121999999998,
-              "height" : 39.052632751464841
+              "width" : 511.0103200000001,
+              "height" : 41.98591674804686
             }
           },
           {
             "text" : "Examples Given:",
             "targetRectangle" : {
-              "y" : 358,
-              "x" : 147.53000036519506,
-              "width" : 252.29849999999993,
-              "height" : 80.942631485462186
+              "y" : 276.91796875,
+              "x" : 149.6799996877753,
+              "width" : 270.066,
+              "height" : 86.82591618537901
             }
           },
           {
             "text" : "Data Loss Prevention API (DLP) - auto scrubbing.",
             "targetRectangle" : {
-              "y" : 439.88999873399734,
-              "x" : 190.53000036519506,
-              "width" : 764.57059999999967,
-              "height" : 80.942631485462243
+              "y" : 364.7579681873322,
+              "x" : 192.6799996877753,
+              "width" : 818.4135999999999,
+              "height" : 86.82591618537901
             }
           },
           {
             "text" : "Auto ML Vision API - image learning",
             "targetRectangle" : {
-              "y" : 521.77999746799469,
-              "x" : 190.53000036519506,
-              "width" : 559.23718000000008,
-              "height" : 80.942631485462243
+              "y" : 452.5979676246643,
+              "x" : 192.6799996877753,
+              "width" : 598.6200799999999,
+              "height" : 86.82591618537901
             }
           },
           {
             "text" : "Upload images, train, deploy, and generate predictions",
             "targetRectangle" : {
-              "y" : 603.66999620199203,
-              "x" : 233.53000036519506,
-              "width" : 824.73031999999967,
-              "height" : 80.942631485462243
+              "y" : 540.4379670619965,
+              "x" : 235.6799996877753,
+              "width" : 882.8099200000001,
+              "height" : 86.82591618537901
             }
           },
           {
             "text" : "BigQuery - RDBMS - managed",
             "targetRectangle" : {
-              "y" : 685.55999493598938,
-              "x" : 190.53000036519506,
-              "width" : 474.15787999999998,
-              "height" : 80.942631485462243
+              "y" : 628.2779664993286,
+              "x" : 192.6799996877753,
+              "width" : 507.5492800000001,
+              "height" : 86.82591618537901
             }
           },
           {
             "text" : "Use SQL to search HUGE amounts of data",
             "targetRectangle" : {
-              "y" : 767.44999366998672,
-              "x" : 233.53000036519506,
-              "width" : 638.89491999999984,
-              "height" : 80.942631485462243
+              "y" : 716.1179659366608,
+              "x" : 235.6799996877753,
+              "width" : 683.88752,
+              "height" : 86.82591618537901
             }
           },
           {
             "text" : "Queried all of GitHub for package.json and inside what is the top npm dependency in a couple minutes.",
             "targetRectangle" : {
-              "y" : 849.33999240398407,
-              "x" : 233.53000036519506,
-              "width" : 1557.9473199999995,
-              "height" : 80.942631485462243
-            }
-          },
-          {
-            "text" : "Google Cloud",
-            "targetRectangle" : {
-              "y" : 112,
-              "x" : 667.27999999999997,
-              "width" : 586.43999999999983,
-              "height" : 108.38937377929688
+              "y" : 803.9579653739929,
+              "x" : 235.6799996877753,
+              "width" : 1529.74472,
+              "height" : 129.825916185379
             }
           }
         ],
@@ -794,13 +794,13 @@ local_slide( {
                       "texturedRectangle" : {
                         "singleTextureOpacity" : 1,
                         "textXHeight" : 0.495,
-                        "textBaseline" : 0.73255108772440158,
+                        "textBaseline" : 0.7325510877244016,
                         "isBackgroundTexture" : true,
                         "isVerticalText" : false,
                         "textColor" : [
-                          0.99990874528884888,
+                          0.9999087452888489,
                           1,
-                          0.99987798929214478,
+                          0.9998779892921448,
                           1
                         ],
                         "textureType" : 6
@@ -819,7 +819,7 @@ local_slide( {
                         "scale" : 1,
                         "position" : {
                           "pointX" : 846.5,
-                          "pointY" : 153
+                          "pointY" : 101
                         },
                         "width" : 589,
                         "sublayerTransform" : [
@@ -933,10 +933,10 @@ local_slide( {
                     "rotation" : 0,
                     "scale" : 1,
                     "position" : {
-                      "pointX" : 954,
-                      "pointY" : 614
+                      "pointX" : 937,
+                      "pointY" : 574.91796875
                     },
-                    "width" : 1682,
+                    "width" : 1648,
                     "sublayerTransform" : [
                       1,
                       0,
@@ -963,7 +963,7 @@ local_slide( {
                     },
                     "opacity" : 1,
                     "edgeAntialiasingMask" : 251658240,
-                    "height" : 614,
+                    "height" : 696,
                     "hidden" : false,
                     "anchorPoint" : {
                       "pointX" : 0.5,
@@ -980,14 +980,14 @@ local_slide( {
                       ],
                       "texturedRectangle" : {
                         "singleTextureOpacity" : 1,
-                        "textXHeight" : 0.02750035830618892,
-                        "textBaseline" : 0.9775171976796192,
+                        "textXHeight" : 0.02596885057471264,
+                        "textBaseline" : 0.9887898390731593,
                         "isBackgroundTexture" : true,
                         "isVerticalText" : false,
                         "textColor" : [
-                          0.92130953073501587,
-                          0.92144668102264404,
-                          0.92127889394760132,
+                          0.9213095307350159,
+                          0.921446681022644,
+                          0.9212788939476013,
                           1
                         ],
                         "textureType" : 6
@@ -1005,10 +1005,10 @@ local_slide( {
                         "rotation" : 0,
                         "scale" : 1,
                         "position" : {
-                          "pointX" : 841,
-                          "pointY" : 323
+                          "pointX" : 824,
+                          "pointY" : 359.08203125
                         },
-                        "width" : 1682,
+                        "width" : 1648,
                         "sublayerTransform" : [
                           1,
                           0,
@@ -1035,14 +1035,14 @@ local_slide( {
                         },
                         "opacity" : 1,
                         "edgeAntialiasingMask" : 0,
-                        "height" : 614,
+                        "height" : 696,
                         "hidden" : false,
                         "anchorPoint" : {
                           "pointX" : 0.5,
                           "pointY" : 0.5
                         }
                       },
-                      "texture" : "0870C30A3498935D4DC19AB73B2C258F"
+                      "texture" : "CB6D6FBB1A0E4B7FF401A8DDD6C5F760"
                     }
                   ]
                 }

@@ -2,8 +2,6 @@
 
 # Reactive Testing Strategies with NgRx
 
-*Grand Ballroom A/D*
-
 ## Testing Tools
 
 **JEST**
@@ -193,9 +191,13 @@ Boilerplate:
 ## What state belongs in the store: SHARI
 
 **S**hared - shared state is accessed by many components and services
+
 **H**ydrated - state that is persisted and hydrated from storage
+
 **A**vailable - state that needs to be available when re-entering routes
+
 **R**etrieved - State that needs to be retrieved with a side effect
+
 **I**mpacted - state that is impacted by actions from other sources
 
 ## What doesn’t belong in the store
@@ -203,11 +205,10 @@ Boilerplate:
   - Keep unserialized state out of the Store.  
 - Data that can’t be serialized.
 - State that is solely owned by a component doesn’t belong in the store.
+
 ## Schematics
-
-NgRx Schematics works with the CLI.
-Blueprints that make it very easy to use.
-
+- NgRx Schematics works with the CLI.
+- Blueprints that make it very easy to use.
 ## State Management Blueprints
 - Store
 - Actions
@@ -237,17 +238,13 @@ Blueprints that make it very easy to use.
 - Reducer<Collection<T>>
 
 EntityState<Entity> {
-
   ids: string[];
   entitles: { [id: string]: Entity };
-
 }
 look up can be done just by the ID.
 const adapter = createEntityAdapter({
-
   selectId: (entity: Entity) => entity._id,
   sortComparer: () => a.name.localeCompare(b.name)
-
 });
 const initalState: State = … adapter?
 
@@ -271,7 +268,7 @@ NgRx Data Module ← Awesome!
 - Requirements → specific test cases → Software dev to pass those tests.
   - You should be writing one test, write code to pass, then repeat.
 
-WTF…
+WTF…?
 
 
 ## Building awesome components with the power of the Angular Component Dev Kit
@@ -327,8 +324,10 @@ this.customerForm.valueChanges.pipe(takeWhile(() => this.alive), skip(1), deboun
   - Example, geolocation success / fail
     - Store contains the location
     - Effect will 
-----------
+
+
 # “Containerizing” Angular with Docker
+
 ## Containers
 - Docker provides an easy way for building, shipping, running apps
 - Docker CE - alpine linux
@@ -358,9 +357,7 @@ this.customerForm.valueChanges.pipe(takeWhile(() => this.alive), skip(1), deboun
 ## Building a Custom Image
 
 docker build -t DanWahlin/ngapp:1.0.0 .
-
-  repository, image, location
-
+repository, image, location
 docker run -d -p 8080:80 danwhalin
 Containers can be used to build automate Angular builds locally or on a CI/CD.
 
@@ -382,7 +379,7 @@ docker push → repository (local or URL)
 Azure for containers.  
 
 
-----------
+
 # Customizing your Angular build with Bazel
 
 https://bazel.build
@@ -439,18 +436,3 @@ ngrx dev tools - Schematics
 this.store.pipe(select(…));
 http://confsnap.com/#/event/ng-conf-18/131
 https://github.com/ngrx/platform/blob/master/example-app/app/books/reducers/books.spec.ts
-
-
-----------
-
-
-- 5:30 - 5:50: 
-  - Customizing your Angular build with Bazel
-  - Grand Ballroom C
-- 6 - 8 
-  - ng-Hackathon
-  - Grand Ballroom A/D
-- 7pm Meetup on 3rd floor in Belvedere Room
-
-
-
