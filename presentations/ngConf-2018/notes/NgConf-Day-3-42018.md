@@ -295,5 +295,4 @@ v7 work is public, much smaller
 - https://ui.school/
 - Look at Nrwl slides for recommendations
   - https://drive.google.com/drive/folders/13OnVqbFvz-w-dDc2FQ9_Yv2eXmrhBl5X
-  - Nrwl jobs…?
 - https://google.github.io/styleguide/jsguide.html
