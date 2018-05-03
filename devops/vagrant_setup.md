@@ -28,3 +28,4 @@ end
 ```
 5. run `vagrant up` to start ... might take a wile
 6. run `vagrant destroy` to stop
+7. To hit your host local environment, use http://10.0.2.2
