@@ -1,5 +1,5 @@
 .quovo-connect-content {border-radius: 0;} 
 #quovo-connect-modal.quovo-connect .close-modal { left: 20px; right: auto; } 
 #quovo-connect-modal.quovo-connect .search .search-group i { color: #ddab0a }
-#quovo-connect-modal.quovo-connect .institutions .institution-card {border-radius: 0;}
+#quovo-connect-modal.quovo-connect .institutions .institution-card {border-radius: 0; border-color: #ddab0a;}
 #quovo-connect-modal.quovo-connect .institutions .institution-card.hover {background: #ddab0a; border-color: #ddab0a;}
