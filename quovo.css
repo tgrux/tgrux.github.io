@@ -1,7 +1,7 @@
 .quovo-connect-content {border-radius: 0;} 
-#quovo-connect-modal.quovo-connect {font-family: "Akkurat Bold", "Roboto", "Oxygen";}
+#quovo-connect-modal.quovo-connect {font-family: "AkkuratPro-Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", sans-serif; }
 #quovo-connect-modal.quovo-connect .search .search-group i { color: #ddab0a }
 #quovo-connect-modal.quovo-connect .institutions .institution-card {border-radius: 0; border-color: #ddab0a;}
 #quovo-connect-modal.quovo-connect .institutions .institution-card.hover {background: #ddab0a; border-color: #ddab0a;}
-#quovo-connect-modal.quovo-connect button.connect-btn { border-radius: 0; background: #fff; box-shadow: none; border: 1px solid #a29060; color: #4b4b4b; padding: 10px 30px; font-family: "Akkurat Bold", "Roboto", "Oxygen"; font-size: 11px;}
+#quovo-connect-modal.quovo-connect button.connect-btn { border-radius: 0; background: #fff; box-shadow: none; border: 1px solid #a29060; color: #4b4b4b; padding: 10px 30px; font-family: "AkkuratPro-Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", sans-serif; font-size: 11px;}
 #quovo-connect-modal.quovo-connect button.connect-btn:hover { background: #f4bd0c; color: #fff; cursor: pointer; }
