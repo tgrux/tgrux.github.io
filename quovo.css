@@ -4,3 +4,5 @@
 #quovo-connect-modal.quovo-connect .institutions .institution-card {border-radius: 0; border-color: #ddab0a;}
 #quovo-connect-modal.quovo-connect .institutions .institution-card.hover {background: #ddab0a; border-color: #ddab0a;}
 #quovo-connect-modal.quovo-connect .go-back { right: 20px; left: auto; }
+#quovo-connect-modal.quovo-connect button.connect-btn { border-radius: 0; background: #fff; box-shadow: none; border: 1px solid #4b4b4b; color: #4b4b4b; padding: 12px 24px;}
+#quovo-connect-modal.quovo-connect button.connect-btn:hover { background: #ddab0a; color: #fff; }
