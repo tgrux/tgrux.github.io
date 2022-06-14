@@ -1,6 +1,6 @@
 # Presentations:
 * [All Videos](https://nitayneeman.com/posts/all-talks-from-ng-conf-2018/)
-* [All Slides](http://confsnap.com/event/ng-conf-18)
+* All Slides (link unavailable, `confsnap` is no longer in operation)
 * [Reactive Testing Strategies with NgRx](https://brandonroberts.github.io/ngrx-ngconf-2018/ngrx-testing/assets/player/KeynoteDHTMLPlayer.html) (@brandontroberts & @MikeRyanDev)
 * [Docker slides](http://codewithdan.me/ng-containers)
 * [Nrwl slides for recommendations](https://drive.google.com/drive/folders/13OnVqbFvz-w-dDc2FQ9_Yv2eXmrhBl5X)
