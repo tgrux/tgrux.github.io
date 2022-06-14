@@ -286,7 +286,7 @@ Component harness - page object framework for components.  Shared between unit t
 # Notes
 ## Slides
 
-http://confsnap.com/#/event/ng-conf-18
+link unavailable, `confsnap` is no longer in operation
 https://github.com/DanWahlin/Angular-Docker-Microservices
 http://g.co/ng/seo-talk
 https://oasisdigital.com/
