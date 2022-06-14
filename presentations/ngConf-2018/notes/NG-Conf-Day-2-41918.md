@@ -173,7 +173,7 @@ Container gets data → Presentation patches values onto formGroup → Value Cha
   - App State → login info
   - UI State → current page
 
-(link unavailable, `confsnap` is no longer in operation)
+link unavailable, `confsnap` is no longer in operation
 
 ----------
 # Reducing the Boilerplate with NgRx
@@ -434,5 +434,5 @@ https://store.docker.com/editions/community/docker-ce-desktop-mac
 @ngrx/entity
 ngrx dev tools - Schematics
 this.store.pipe(select(…));
-(unavailable, `confsnap` is no longer in operation)
+link unavailable, `confsnap` is no longer in operation
 https://github.com/ngrx/platform/blob/master/example-app/app/books/reducers/books.spec.ts
